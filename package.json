@@ -22,5 +22,8 @@
   },
   "overrides": {
     "vite": "npm:rolldown-vite@latest"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
   }
 }
