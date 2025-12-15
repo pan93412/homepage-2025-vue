@@ -1,6 +1,6 @@
 <template>
     <header class="mx-auto py-8 bg-neutral-100 dark:bg-neutral-800 mb-4 overflow-hidden relative">
-        <div class="container mx-auto space-y-1">
+        <div class="container mx-auto space-y-1 px-4">
             <h1 class="text-2xl font-bold">{{ $t('header.title') }}</h1>
 
             <article>
