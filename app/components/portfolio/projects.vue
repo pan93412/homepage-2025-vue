@@ -1,7 +1,7 @@
 <script setup lang="ts">
 interface Project {
     key: string;
-    link: string;
+    link?: string;
 }
 
 const projects: Project[] = [
@@ -35,7 +35,6 @@ const projects: Project[] = [
     },
     {
         key: 'virtual-doctor-2025-12',
-        link: 'https://github.com/pan93412/virtual-doctor',
     },
 ];
 </script>
@@ -56,7 +55,8 @@ const projects: Project[] = [
         <ul class="list-disc list-inside mb-2 [&>li]:mb-0.5">
             <AppDescriptionList v-for="project in projects" :key="project.key">
                 <template #title>
-                    {{ $t(`projects.${project.key}.title`) }}
+                    <a v-if="project.link" :href="project.link">{{ $t(`projects.${project.key}.title`) }}</a>
+                    <span v-else>{{ $t(`projects.${project.key}.title`) }}</span>
                 </template>
                 <template #description>
                     {{ $t(`projects.${project.key}.description`) }}
