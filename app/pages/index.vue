@@ -15,8 +15,10 @@
 
         <AppMainLayout>
             <PortfolioAbout />
-            <PortfolioProjects />
             <PortfolioExperiences />
+            <PortfolioProjects />
+            <PortfolioSlides />
+            <PortfolioSocialMedia />
         </AppMainLayout>
     </div>
 </template>

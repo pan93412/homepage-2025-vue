@@ -281,3 +281,10 @@ experiences:
             telegram: Participated in the {telegram} community as a moderator and translator.
         slat: SLAT
         telegram: Telegram
+slides:
+    title: Slides 
+    slide: Slide
+    article: Article
+social-media:
+    title: Social Media
+    email: E-mail
