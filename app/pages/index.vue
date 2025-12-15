@@ -15,8 +15,8 @@
 
         <AppMainLayout>
             <PortfolioAbout />
-            <PortfolioExperiences />
             <PortfolioProjects />
+            <PortfolioExperiences />
             <PortfolioSlides />
             <PortfolioSocialMedia />
         </AppMainLayout>

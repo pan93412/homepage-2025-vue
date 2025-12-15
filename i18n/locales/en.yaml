@@ -3,7 +3,6 @@ header:
     title: Yi-Jyun Pan
     description1: I am a backend engineer at {company} and an undergraduate based in Kaohsiung, Taiwan 🇹🇼.
     description2: I develop, design, and translate. Occasionally, I contribute to open-source software (OSS).
-    contacts: Contacts
 about:
     title: About me
     description: I am a full-stack developer with expertise in a wide range of technologies.
@@ -40,10 +39,10 @@ about:
     data-analysis:
         title: Data Analysis
         description: >-
-            I am proficient in data analysis using Python, Pandas / Polars, and visualization
-            with Matplotlib / Seaborn / Plotly, supported by training from NKUST IC. I also have
-            a basic understanding of statistical analysis, such as t-tests, ANOVA, Chi-square test,
-            and p-values, although I am not highly skilled in them.
+            I can do data analysis using Python, Pandas / Polars, and visualization with
+            Matplotlib / Seaborn / Plotly. I also have a basic understanding of statistical
+            analysis, such as t-tests, ANOVA, Chi-square test, and p-values, although I am not
+            highly skilled in them.
     machine-learning:
         title: Machine Learning
         description: >-
@@ -73,7 +72,7 @@ about:
     cloud-portfolio: >-
         I prefer cloud-native and scalable solutions. I have applied
         microservice architectures and techniques on several projects,
-        which you can find on the “Portfolio” section.
+        which you can find on the Projects section.
     solutions-engineering-portfolio: >-
         I consistently explore best practices and scalable solutions in
         software engineering, and share my finding on Threads, X and my blog.
