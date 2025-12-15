@@ -21,8 +21,6 @@ interface SimpleExperienceContributionItem {
     slots?: Record<string, FunctionalComponent>;
 }
 
-const { t } = useI18n();
-
 const experiences: ExperienceItem[] = [
     {
         key: 'zeabur-2023-04',
@@ -132,7 +130,7 @@ const experiences: ExperienceItem[] = [
                     slat: () => h('a', { 
                         href: 'https://slat.org.tw/', 
                         rel: 'noopener noreferrer' 
-                    }, t('experiences.l10n-tw-2018.slat')),
+                    }, $t('experiences.l10n-tw-2018.slat')),
                 },
             },
             {
@@ -142,7 +140,7 @@ const experiences: ExperienceItem[] = [
                     telegram: () => h('a', { 
                         href: 'https://t.me/l10n_tw', 
                         rel: 'noopener noreferrer' 
-                    }, t('experiences.l10n-tw-2018.telegram')),
+                    }, $t('experiences.l10n-tw-2018.telegram')),
                 },
             },
         ],
@@ -185,10 +183,10 @@ const ContributionItem = defineComponent({
 
 <template>
     <AppArticleBlock>
-        <h2 class="text-xl font-bold mb-2">{{ $t('experiences.title') }}</h2>
+        <h2 id="experiences" class="text-xl font-bold mb-2 scroll-mt-4">{{ $t('experiences.title') }}</h2>
 
         <section v-for="experience in experiences" :key="experience.key" class="mb-4 [&>p]:mb-1.5">
-            <h3 class="text-lg font-bold mb-1">
+            <h3 :id="`experience-${experience.key}`" class="text-lg font-bold mb-1 scroll-mt-2">
                 {{ $t(`experiences.${experience.key}.title`) }}
             </h3>
             <p>

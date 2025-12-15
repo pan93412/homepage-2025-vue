@@ -42,7 +42,7 @@ const projects: Project[] = [
 
 <template>
     <AppArticleBlock>
-        <h2 class="text-xl font-bold mb-2">{{ $t('projects.title') }}</h2>
+        <h2 id="projects" class="text-xl font-bold mb-2 scroll-mt-4">{{ $t('projects.title') }}</h2>
 
         <ul class="list-disc list-inside mb-2 [&>li]:mb-0.5">
             <AppDescriptionList v-for="project in projects" :key="project.key">

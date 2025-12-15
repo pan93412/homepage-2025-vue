@@ -1,6 +1,6 @@
 <template>
     <AppArticleBlock>
-        <h2 class="text-xl font-bold mb-2">{{ $t('about.title') }}</h2>
+        <h2 id="about" class="text-xl font-bold mb-2 scroll-mt-4">{{ $t('about.title') }}</h2>
 
         <p>{{ $t('about.description') }}</p>
 
