@@ -6,35 +6,35 @@ interface Project {
 
 const projects: Project[] = [
     {
-        key: 'nkust-iot-2024-06',
-        link: 'https://github.com/nkust-monitor-iot-project-2024/central',
-    },
-    {
-        key: 'database-playground-2024-07',
-        link: 'https://github.com/database-playground/app-sf',
-    },
-    {
-        key: 'nkust-iot-2024-12',
-        link: 'https://github.com/nkust-monitor-iot-project-2024/iot-system',
-    },
-    {
-        key: 'yolo-rs-2024-12',
-        link: 'https://github.com/pan93412/yolo-rs',
-    },
-    {
-        key: 'crawler-2025-04',
-        link: 'https://github.com/pan93412?tab=repositories&q=nkust-crawler&type=source&language=&sort=',
-    },
-    {
-        key: 'coscup-2025-07',
-        link: 'https://github.com/coscup/2025',
+        key: 'virtual-doctor-2025-12',
     },
     {
         key: 'database-playground-2025-08',
         link: 'https://github.com/database-playground/backend-v2',
     },
     {
-        key: 'virtual-doctor-2025-12',
+        key: 'coscup-2025-07',
+        link: 'https://github.com/coscup/2025',
+    },
+    {
+        key: 'crawler-2025-04',
+        link: 'https://github.com/pan93412?tab=repositories&q=nkust-crawler&type=source&language=&sort=',
+    },
+    {
+        key: 'yolo-rs-2024-12',
+        link: 'https://github.com/pan93412/yolo-rs',
+    },
+    {
+        key: 'nkust-iot-2024-12',
+        link: 'https://github.com/nkust-monitor-iot-project-2024/iot-system',
+    },
+    {
+        key: 'database-playground-2024-07',
+        link: 'https://github.com/database-playground/app-sf',
+    },
+    {
+        key: 'nkust-iot-2024-06',
+        link: 'https://github.com/nkust-monitor-iot-project-2024/central',
     },
 ];
 </script>
