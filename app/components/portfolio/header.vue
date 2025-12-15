@@ -1,5 +1,5 @@
 <template>
-    <header class="mx-auto py-8 bg-neutral-100 dark:bg-neutral-800 mb-4">
+    <header class="mx-auto py-8 bg-neutral-100 dark:bg-neutral-800 mb-4 overflow-hidden relative">
         <div class="container mx-auto space-y-1">
             <h1 class="text-2xl font-bold">{{ $t('header.title') }}</h1>
 
@@ -18,6 +18,10 @@
                     <LanguageSwitcher />
                 </ul>
             </nav>
+
+            <div class="absolute top-1/2 -translate-y-1/2 right-4" aria-hidden="true" role="presentation">
+                <img src="/avatar.avif" alt="Avatar" class="w-80 h-80 opacity-25 rounded-full">
+            </div>
         </div>
     </header>
 </template>
