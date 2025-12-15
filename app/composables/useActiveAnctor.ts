@@ -1,5 +1,5 @@
 
-import { ref, onMounted, onUnmounted, watch, type Ref } from 'vue'
+import { ref, onMounted, onUnmounted, watch, type Ref, type WatchHandle } from 'vue'
 import { useThrottleFn } from '@vueuse/core'
 import type { TocItem } from './useTocItems'
 
@@ -92,19 +92,21 @@ export function useActiveAnchor(tocItems: Ref<TocItem[]> | TocItem[]): Ref<strin
   }
 
   const onScroll = useThrottleFn(setActiveLink, 100)
+  let watchHandle: WatchHandle | null = null;
 
   onMounted(() => {
     requestAnimationFrame(setActiveLink)
     window.addEventListener('scroll', onScroll, { passive: true })
     
     // Watch for changes in tocItems and update active link
-    watch(tocItemsRef, () => {
+    watchHandle = watch(tocItemsRef, () => {
       requestAnimationFrame(setActiveLink)
     }, { deep: true })
   })
 
   onUnmounted(() => {
     window.removeEventListener('scroll', onScroll)
+    watchHandle?.stop()
   })
 
   return activeAnchor
