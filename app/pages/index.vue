@@ -2,10 +2,10 @@
     <div>
         <PortfolioHeader />
 
-        <main class="container mx-auto">
+        <AppMainLayout>
             <PortfolioAbout />
             <PortfolioProjects />
             <PortfolioExperiences />
-        </main>
+        </AppMainLayout>
     </div>
 </template>
