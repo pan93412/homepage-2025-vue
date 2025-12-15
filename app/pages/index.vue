@@ -1,4 +1,6 @@
 <script setup lang="ts">
+    import { Analytics } from '@vercel/analytics/nuxt'
+
     useHead({
         title: 'Yi-Jyun Pan',
         meta: [
@@ -21,5 +23,7 @@
             <PortfolioReferrals />
             <PortfolioSocialMedia />
         </AppMainLayout>
+
+        <Analytics />
     </div>
 </template>

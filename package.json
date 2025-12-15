@@ -14,6 +14,7 @@
     "@nuxt/icon": "2.1.1",
     "@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge",
     "@tailwindcss/vite": "^4.1.18",
+    "@vercel/analytics": "^1.6.1",
     "@vueuse/core": "^14.1.0",
     "eslint": "^9.39.2",
     "nuxt": "npm:nuxt-nightly@^4.2.3-29427013.01d459e0",
