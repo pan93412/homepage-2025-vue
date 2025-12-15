@@ -284,8 +284,30 @@ slides:
     title: Slides 
     slide: Slide
     article: Article
+referrals:
+    title: Referrals
+    description: >-
+        These links are referral links for my recommended products and services.
+        If you are interested in any of them, please feel free to use my referral
+        links to register. It supports both the services and me.
+    register-now: "Register now →"
+    zeabur:
+        title: Zeabur
+        description: >-
+            Zeabur takes your code from local to live—without the headache of server management, security, or CI/CD setups.
+
+            Our AI intelligently analyzes your project to auto-generate Dockerfiles, instantly deploying your app to a fully managed platform. With multiple global regions available, your users enjoy lightning-fast access no matter where they are.
+
+            Packed with built-in Databases, InsForge (a powerful Supabase alternative), robust WAF protection, and AI Hub APIs, Zeabur delivers a true zero-configuration experience. Deploy with total peace of mind.
+    bunny-cdn:
+        title: Bunny CDN
+        description: >-
+            Experience a complete edge platform featuring the low-latency CDN, high-speed Storage, Smart DNS with load balancing, and robust WAF security—all fully customizable. Say goodbye to Cloudflare’s rigid contracts and slow support; enjoy total freedom with pay-as-you-go pricing and a team that’s always there to help.
 social-media:
     title: Social Media
+    description: >-
+        You can reach me via Threads, X, or other social media platforms.
+        I am mostly active on Telegram, X and Threads.
     email: E-mail
 punctuation:
     colon: ": "

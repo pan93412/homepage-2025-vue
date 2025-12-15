@@ -58,6 +58,8 @@
     <AppArticleBlock class="@container">
         <h2 id="social-media" class="text-xl font-bold mb-2 scroll-mt-4">{{ $t('social-media.title') }}</h2>
 
+        <p>{{ $t('social-media.description') }}</p>
+
         <div class="grid grid-cols-1 @lg:grid-cols-2 @xl:grid-cols-3 gap-2">
             <div v-for="contact in socialMediaContacts" :key="contact.name">
                 <strong>{{ contact.name }}</strong>:&nbsp;<br class="hidden @lg:block">

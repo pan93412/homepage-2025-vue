@@ -249,8 +249,24 @@ slides:
     title: 演講紀錄
     slide: 投影片
     article: 文章
+referrals:
+    title: 推薦連結
+    description: >-
+        這些連結是我推薦的產品與服務的推薦連結。如果你對這些產品有興趣，歡迎使用我的推薦連結註冊，這樣可以同時支持服務，我也能獲得提成。
+    register-now: "立刻註冊 →"
+    zeabur:
+        title: Zeabur
+        description: >-
+            Zeabur 是一個由 AI 驅動，幫助您將寫好的程式碼部署上線，而無需擔憂伺服器設定、資安和 CI/CD 設定。Zeabur 的 AI 會替您分析程式碼並自動撰寫 Dockerfile，瞬間將應用程式部署至全託管平台；提供多個部署區域，無論受眾位於何處，都能快速瀏覽您的網站。我們也內建資料庫、InsForge（Supabase 的替代方案）、WAF 資安防護及 AI Hub API，給您零設定、完全安心的部署體驗。
+    bunny-cdn:
+        title: Bunny CDN
+        description: >-
+            體驗全方位的邊緣平台，包含有台灣節點的低延遲 CDN、高速儲存空間、具備負載平衡的智慧 DNS，以及強大的 WAF 資安防護，且所有功能皆可高度自訂。告別 Cloudflare 的僵化合約與緩慢客服，享受「用多少付多少」的完全自由，以及一個隨時為您提供協助的支援團隊。
 social-media:
     title: 社群媒體
+    description: >-
+        你可以透過 Threads、X 或其他社群媒體平台聯絡我。
+        我主要活躍於 Telegram、X 與 Threads。
     email: 電子郵件
 punctuation:
     colon: "："

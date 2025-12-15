@@ -18,6 +18,7 @@
             <PortfolioProjects />
             <PortfolioExperiences />
             <PortfolioSlides />
+            <PortfolioReferrals />
             <PortfolioSocialMedia />
         </AppMainLayout>
     </div>
