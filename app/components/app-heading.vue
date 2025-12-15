@@ -14,13 +14,11 @@ context.register({
     level: props.level,
 });
 
-onMounted(async () => {
-    await nextTick();
-
-    if (headingRef.value) {
-        context.updateElement(props.id, headingRef.value);
+watch(headingRef, (headingRef) => {
+    if (headingRef) {
+        context.updateElement(props.id, headingRef);
     }
-});
+}, { immediate: true });
 
 onUnmounted(() => {
     context.unregister(props.id);

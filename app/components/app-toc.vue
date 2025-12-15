@@ -6,8 +6,8 @@ withDefaults(defineProps<{
     title: 'Table of Contents'
 });
 
-const tocItems = useTocItems();
-const activeAnchor = useActiveAnchor(tocItems);
+const tocItemsRef = useTocItems();
+const activeAnchor = useActiveAnchor(tocItemsRef);
 
 const moveToAnchor = (anchor: string) => {
     const target = document.getElementById(anchor);
@@ -19,12 +19,12 @@ const moveToAnchor = (anchor: string) => {
 
 <template>
     <nav
-        v-if="tocItems.length > 0"
+        v-if="tocItemsRef.length > 0"
         class="sticky top-4 p-4 bg-neutral-100 dark:bg-neutral-800 rounded-lg border border-neutral-200 dark:border-neutral-700">
         <h3 v-if="title" class="text-sm font-bold mb-3 text-neutral-900 dark:text-neutral-100">{{ title }}</h3>
         <ul class="space-y-1 list-none">
             <li
-                v-for="item in tocItems" 
+                v-for="item in tocItemsRef" 
                 :key="item.id" 
                 class="text-sm">
                 <a
