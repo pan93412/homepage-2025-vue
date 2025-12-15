@@ -1,11 +1,5 @@
-import {
-  ref,
-  onMounted,
-  onUnmounted,
-  watch,
-  type Ref,
-} from "vue";
 import { useThrottleFn } from "@vueuse/core";
+import { onMounted, onUnmounted, type Ref, ref, watch } from "vue";
 
 /**
  * Get the absolute top position of an element relative to the document.
@@ -40,7 +34,7 @@ function getScrollOffset(): number {
  * @returns A ref containing the ID of the active anchor.
  */
 export function useActiveAnchor(
-  tocItemsRef: Ref<TocItem[]>
+  tocItemsRef: Ref<TocItem[]>,
 ): Ref<string> {
   const activeAnchor = ref<string>("");
 
@@ -58,8 +52,7 @@ export function useActiveAnchor(
     // Map headers with their absolute top positions
     const headers = tocItemsRef.value
       .filter(
-        (item): item is TocItem & { $element: HTMLElement } =>
-          item.$element !== undefined
+        (item): item is TocItem & { $element: HTMLElement } => item.$element !== undefined,
       )
       .map((item) => ({
         id: item.id,
@@ -111,7 +104,7 @@ export function useActiveAnchor(
     () => {
       requestAnimationFrame(setActiveLink);
     },
-    { deep: true }
+    { deep: true },
   );
 
   onUnmounted(() => {

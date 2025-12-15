@@ -1,272 +1,272 @@
 table-of-contents: 目錄
 header:
-    title: Yi-Jyun Pan
-    description1: 我在 {company} 擔任後端工程師，也是來自高雄的大學生 🇹🇼。
-    description2: 我會開發、設計、和翻譯。偶爾也會貢獻開源軟體（OSS）。
+  title: Yi-Jyun Pan
+  description1: 我在 {company} 擔任後端工程師，也是來自高雄的大學生 🇹🇼。
+  description2: 我會開發、設計、和翻譯。偶爾也會貢獻開源軟體（OSS）。
 about:
-    title: 關於我
-    description: 我是一名全端開發者，熟悉各式各樣的技術。
-    frontend:
-        title: 前端
-        description: >-
-            主要使用 React.js、TypeScript 與 Next.js。小型專案會使用 Vue.js、Nuxt
-            與 Vite。
-    backend:
-        title: 後端
-        description: >-
-            主要使用 Go、Rust、PHP 與 Node.js。
-    cloud:
-        title: 雲端
-        description: >-
-            在 PaaS 解決方案方面，我在 Zeabur 與 Vercel 上有相當豐富的經驗，能確保應用程式在
-            這些平台上順暢運行。我也熟悉像 S3 的物件儲存，以及 Cloudflare 與 Bunny CDN 的
-            CDN 設定。
-    infra:
-        title: 基礎設施
-        description: >-
-            我在 Zeabur 的工作內容包含大量 Kubernetes、Docker 與 Git 的實作。舉例來說，我可以用
-            K3s 建立一個簡易的 Kubernetes 叢集並進行管理，並透過 Helm 或一般的 YAML manifests
-            部署應用程式。我也能使用 GitHub Actions 建立 CI/CD pipeline。
-    llm:
-        title: 大型語言模型
-        description: >-
-            我熟悉多種模型，包括 GPT、Claude、Gemini、DeepSeek、Perplexity 等。我了解它們
-            各自最適合的使用場景以及 API 串接方式。我可以使用 LangChain 與 Vercel AI SDK
-            開發 LLM Agent；也能用 LangChain 搭配 Voyage AI 的模型建立 RAG pipeline，並為
-            agent 的通用工具打造 MCP server。
-    data-analysis:
-        title: 資料分析
-        description: >-
-            我能使用 Python 進行資料分析，包含 Pandas / Polars，並能用 Matplotlib /
-            Seaborn / Plotly 進行視覺化。我也對統計分析有基礎理解，例如 t-test、ANOVA、
-            卡方檢定與 p-value，但並非非常熟練。
-    machine-learning:
-        title: 機器學習
-        description: >-
-            我能使用 Python、Scikit-learn 與 TensorFlow Keras 訓練機器學習模型。我有開發
-            機器學習模型的經驗，例如分類、回歸、分群與降維，不過不是很擅長。
-    apple-ecosystem:
-        title: Apple 生態系
-        description: >-
-            我業餘時會使用 Swift 為 Apple 生態系設計 App，也會用 React Native。我有開發
-            macOS 與 iOS App 的經驗，例如 {string-catalog-merger}，以及協助改善一些 Swift
-            專案的並行實作。
-        string-catalog-merger: 用於合併 string catalog 的輔助工具
-    engineering:
-        title: 工程實務
-        description: >-
-            我熟悉既有的貢獻流程與 commit 規範，例如 {conventional-commits}。我尊重並遵循
-            linter、formatter 與型別檢查工具。
-        conventional-commits: Conventional Commits
-    designing:
-        title: 設計
-        description: >-
-            我能使用 Figma 製作 UI mockup 與 wireframe，也有使用 Photoshop、Illustrator、
-            Premiere Pro 等 Adobe 套件呈現作品的經驗。
-    cloud-portfolio: >-
-        我偏好 cloud-native 與可擴展的解決方案。我曾在多個專案中導入微服務架構與相關技術，
-        你可以在「專案」區段找到。
-    solutions-engineering-portfolio: >-
-        我持續探索軟體工程的最佳實踐與可擴展的方案，並在 Threads、X 與我的部落格分享我的
-        發現。歡迎和我交流想法！
-    oss-contributions: >-
-        我積極參與 Symfony、Git、Keka 與多種 GNU 軟體等開源專案的貢獻。此外，我也活躍於
-        Telegram 與 Discord 的多個開發者社群，或許很容易見到面。
+  title: 關於我
+  description: 我是一名全端開發者，熟悉各式各樣的技術。
+  frontend:
+    title: 前端
+    description: >-
+      主要使用 React.js、TypeScript 與 Next.js。小型專案會使用 Vue.js、Nuxt
+      與 Vite。
+  backend:
+    title: 後端
+    description: >-
+      主要使用 Go、Rust、PHP 與 Node.js。
+  cloud:
+    title: 雲端
+    description: >-
+      在 PaaS 解決方案方面，我在 Zeabur 與 Vercel 上有相當豐富的經驗，能確保應用程式在
+      這些平台上順暢運行。我也熟悉像 S3 的物件儲存，以及 Cloudflare 與 Bunny CDN 的
+      CDN 設定。
+  infra:
+    title: 基礎設施
+    description: >-
+      我在 Zeabur 的工作內容包含大量 Kubernetes、Docker 與 Git 的實作。舉例來說，我可以用
+      K3s 建立一個簡易的 Kubernetes 叢集並進行管理，並透過 Helm 或一般的 YAML manifests
+      部署應用程式。我也能使用 GitHub Actions 建立 CI/CD pipeline。
+  llm:
+    title: 大型語言模型
+    description: >-
+      我熟悉多種模型，包括 GPT、Claude、Gemini、DeepSeek、Perplexity 等。我了解它們
+      各自最適合的使用場景以及 API 串接方式。我可以使用 LangChain 與 Vercel AI SDK
+      開發 LLM Agent；也能用 LangChain 搭配 Voyage AI 的模型建立 RAG pipeline，並為
+      agent 的通用工具打造 MCP server。
+  data-analysis:
+    title: 資料分析
+    description: >-
+      我能使用 Python 進行資料分析，包含 Pandas / Polars，並能用 Matplotlib /
+      Seaborn / Plotly 進行視覺化。我也對統計分析有基礎理解，例如 t-test、ANOVA、
+      卡方檢定與 p-value，但並非非常熟練。
+  machine-learning:
+    title: 機器學習
+    description: >-
+      我能使用 Python、Scikit-learn 與 TensorFlow Keras 訓練機器學習模型。我有開發
+      機器學習模型的經驗，例如分類、回歸、分群與降維，不過不是很擅長。
+  apple-ecosystem:
+    title: Apple 生態系
+    description: >-
+      我業餘時會使用 Swift 為 Apple 生態系設計 App，也會用 React Native。我有開發
+      macOS 與 iOS App 的經驗，例如 {string-catalog-merger}，以及協助改善一些 Swift
+      專案的並行實作。
+    string-catalog-merger: 用於合併 string catalog 的輔助工具
+  engineering:
+    title: 工程實務
+    description: >-
+      我熟悉既有的貢獻流程與 commit 規範，例如 {conventional-commits}。我尊重並遵循
+      linter、formatter 與型別檢查工具。
+    conventional-commits: Conventional Commits
+  designing:
+    title: 設計
+    description: >-
+      我能使用 Figma 製作 UI mockup 與 wireframe，也有使用 Photoshop、Illustrator、
+      Premiere Pro 等 Adobe 套件呈現作品的經驗。
+  cloud-portfolio: >-
+    我偏好 cloud-native 與可擴展的解決方案。我曾在多個專案中導入微服務架構與相關技術，
+    你可以在「專案」區段找到。
+  solutions-engineering-portfolio: >-
+    我持續探索軟體工程的最佳實踐與可擴展的方案，並在 Threads、X 與我的部落格分享我的
+    發現。歡迎和我交流想法！
+  oss-contributions: >-
+    我積極參與 Symfony、Git、Keka 與多種 GNU 軟體等開源專案的貢獻。此外，我也活躍於
+    Telegram 與 Discord 的多個開發者社群，或許很容易見到面。
 projects:
-    title: 專案
+  title: 專案
+  description: >-
+    我大部分有趣的專案都開源在 {my-github}，以及我所建立的組織底下。
+    我也置頂了一些能展現能力的專案；此外我也維護 {blog}，用來分享想法與技術洞見。
+  my-github: 我的 GitHub（pan93412）
+  blog: 部落格（blog.pan93.com）
+  nkust-iot-2024-06:
+    title: 2024/06 - NKUST IC IoT 專題（Go）
     description: >-
-        我大部分有趣的專案都開源在 {my-github}，以及我所建立的組織底下。
-        我也置頂了一些能展現能力的專案；此外我也維護 {blog}，用來分享想法與技術洞見。
-    my-github: 我的 GitHub（pan93412）
-    blog: 部落格（blog.pan93.com）
-    nkust-iot-2024-06:
-        title: 2024/06 - NKUST IC IoT 專題（Go）
-        description: >-
-            物聯網課程的期末專題：基於 Raspberry Pi 3 硬體，能快速偵測入侵者並發出警報。
-            使用 Go 撰寫，採用微服務架構，整合 RabbitMQ、GraphQL、gRPC、OpenTelemetry、
-            mTLS、PostgreSQL 等。
-    database-playground-2024-07:
-        title: 2024/07 - Database Playground（PHP）
-        description: >-
-            為課程打造的 SQL 練習平台，同時也是國科會大專生研究計畫（'24）的一部分
-            （「使用提醒及參照回饋機制輔以 GPT 模型產生個人化內容提升學生學習意願：
-            以資料庫學習遊戲化平台為例」）。平台以 Symfony 建置，並使用 Go 開發需要
-            效能的服務，例如 SQL runner。
-    nkust-iot-2024-12:
-        title: 2024/12 - NKUST IC IoT 專題（Rust）
-        description: >-
-            物聯網課程的延伸專題：使用搭配 GStreamer 的 webcam 來快速偵測入侵者並發出警報。
-            使用 Rust 撰寫並採用微服務架構，整合 Cloudflare R2、GraphQL、NATS、PostgreSQL、
-            GStreamer、YOLO 等。整體以非同步操作與 worker pattern 設計。
-    yolo-rs-2024-12:
-        title: 2024/12 - YOLO-RS
-        description: >-
-            YOLO（You Only Look Once）即時物件偵測演算法的 Rust 實作，在最大 YOLO 模型
-            （YOLO11x）下可達到 17 FPS。
-    crawler-2025-04:
-        title: 2025/04 - NKUST 爬蟲專題
-        description: >-
-            NKUST IC 資料分析課程的爬蟲專題，使用 Go 撰寫。工具組可從 Yahoo News、Dcard、
-            PTT、Mobile01 等網站爬取並擷取資料，完成資料清理後使用 Streamlit 進行視覺化。
-    coscup-2025-07:
-        title: 2025/07 - COSCUP 2025 - 議程頁面
-        description: >-
-            為 COSCUP 2025 全面重寫的議程頁面，使用 VitePress 建置，具備桌機與行動裝置皆適用
-            的響應式設計。此版本解決了許多平台限制，例如預先渲染所有議程頁面、最小化 bundle
-            size，以及繞過 Pretalx API 的限制。
-    database-playground-2025-08:
-        title: 2025/08 - Database Playground（Go）
-        description: >-
-            這是先前基於 Symfony 的 SQL 練習平台重寫版本，同時也參與了國科會大專生研究計畫（'25）。
-            此版本聚焦在 AI agents 與高度可擴充性。平台後端與 SQL runner 使用 Go 直接實作（不
-            使用框架），前端與管理介面使用 Next.js。整合 Vercel AI SDK 做 LLM 串接，並使用
-            PostHog 進行產品分析、LLM observability 與行為追蹤。此專案面臨的挑戰包含安全性
-            （如 OAuth 與權限管理）以及可擴展性（如資料庫複寫與微服務）。所有元件與技術選型
-            都以文件形式開源在 GitHub。
-    virtual-doctor-2025-12:
-        title: 2025/12 - 虛擬醫生（Python，尚未開源）
-        description: >-
-            NKUST IC 畢業專題的「虛擬醫生」計畫，使用 Python 撰寫。此專案透過 RAG 從內部資料
-            庫檢索醫療知識，為長者提供虛擬醫生服務。系統會以 MCP 評估使用者健康狀況，並將
-            評估結果整合到大型語言模型（LLM）中，提供日常生活建議。此外，專案也提供基於
-            LiveTalking 的數位醫生，模擬醫生的聲音與唇形動作，讓長者感覺更舒適且有陪伴感，
-            彷彿在與真正的醫生對話。
+      物聯網課程的期末專題：基於 Raspberry Pi 3 硬體，能快速偵測入侵者並發出警報。
+      使用 Go 撰寫，採用微服務架構，整合 RabbitMQ、GraphQL、gRPC、OpenTelemetry、
+      mTLS、PostgreSQL 等。
+  database-playground-2024-07:
+    title: 2024/07 - Database Playground（PHP）
+    description: >-
+      為課程打造的 SQL 練習平台，同時也是國科會大專生研究計畫（'24）的一部分
+      （「使用提醒及參照回饋機制輔以 GPT 模型產生個人化內容提升學生學習意願：
+      以資料庫學習遊戲化平台為例」）。平台以 Symfony 建置，並使用 Go 開發需要
+      效能的服務，例如 SQL runner。
+  nkust-iot-2024-12:
+    title: 2024/12 - NKUST IC IoT 專題（Rust）
+    description: >-
+      物聯網課程的延伸專題：使用搭配 GStreamer 的 webcam 來快速偵測入侵者並發出警報。
+      使用 Rust 撰寫並採用微服務架構，整合 Cloudflare R2、GraphQL、NATS、PostgreSQL、
+      GStreamer、YOLO 等。整體以非同步操作與 worker pattern 設計。
+  yolo-rs-2024-12:
+    title: 2024/12 - YOLO-RS
+    description: >-
+      YOLO（You Only Look Once）即時物件偵測演算法的 Rust 實作，在最大 YOLO 模型
+      （YOLO11x）下可達到 17 FPS。
+  crawler-2025-04:
+    title: 2025/04 - NKUST 爬蟲專題
+    description: >-
+      NKUST IC 資料分析課程的爬蟲專題，使用 Go 撰寫。工具組可從 Yahoo News、Dcard、
+      PTT、Mobile01 等網站爬取並擷取資料，完成資料清理後使用 Streamlit 進行視覺化。
+  coscup-2025-07:
+    title: 2025/07 - COSCUP 2025 - 議程頁面
+    description: >-
+      為 COSCUP 2025 全面重寫的議程頁面，使用 VitePress 建置，具備桌機與行動裝置皆適用
+      的響應式設計。此版本解決了許多平台限制，例如預先渲染所有議程頁面、最小化 bundle
+      size，以及繞過 Pretalx API 的限制。
+  database-playground-2025-08:
+    title: 2025/08 - Database Playground（Go）
+    description: >-
+      這是先前基於 Symfony 的 SQL 練習平台重寫版本，同時也參與了國科會大專生研究計畫（'25）。
+      此版本聚焦在 AI agents 與高度可擴充性。平台後端與 SQL runner 使用 Go 直接實作（不
+      使用框架），前端與管理介面使用 Next.js。整合 Vercel AI SDK 做 LLM 串接，並使用
+      PostHog 進行產品分析、LLM observability 與行為追蹤。此專案面臨的挑戰包含安全性
+      （如 OAuth 與權限管理）以及可擴展性（如資料庫複寫與微服務）。所有元件與技術選型
+      都以文件形式開源在 GitHub。
+  virtual-doctor-2025-12:
+    title: 2025/12 - 虛擬醫生（Python，尚未開源）
+    description: >-
+      NKUST IC 畢業專題的「虛擬醫生」計畫，使用 Python 撰寫。此專案透過 RAG 從內部資料
+      庫檢索醫療知識，為長者提供虛擬醫生服務。系統會以 MCP 評估使用者健康狀況，並將
+      評估結果整合到大型語言模型（LLM）中，提供日常生活建議。此外，專案也提供基於
+      LiveTalking 的數位醫生，模擬醫生的聲音與唇形動作，讓長者感覺更舒適且有陪伴感，
+      彷彿在與真正的醫生對話。
 experiences:
-    title: 經歷
-    contributions: "貢獻："
-    more-information: "更多資訊 →"
-    zeabur-2023-04:
-        title: "Zeabur：2023-04 ~（兼職轉正職）"
-        company-description: >-
-            Zeabur 是一家雲端平台（PaaS）公司，致力於簡化開發者的部署流程。其目標是讓開發者
-            專注於撰寫程式碼，而不必被繁瑣的伺服器設定、環境建置與部署流程所困擾。
-        contributions:
-            zbpack:
-                title: "封裝系統（zbpack）的開發"
-                description: >-
-                    實作並改進 Rust、Node.js、Python、Go 與 PHP 的封裝流程；新增跨 monorepo
-                    workflow 的支援、Corepack 版本釘選，以及 Rye 與 uv 等新工具；並重新設計
-                    封裝系統架構。zbpack 持續維護中，並持續支援新專案。
-            sspec:
-                title: "服務規格的設計"
-                description: >-
-                    從零設計服務規格，並實作底層轉換器、gRPC、GraphQL、JSON schema 定義與其
-                    實作。此規格成為 Zeabur templates 的標準，以及 Zeabur 內部服務的核心結構。
-            oci-registry:
-                title: "自建 OCI Registry 的設計與實作"
-                description: >-
-                    實作 OCI v2 pull protocol 與針對 S3 最佳化的 push 機制；最佳化 garbage
-                    collection 以降低 stop-the-world 的影響；並建立具備快取與 CDN 支援的多
-                    zone registry。
-            file-management-v2:
-                title: "改進檔案管理 API"
-                description: >-
-                    透過將 RESTful API 部署到每個共享叢集，並設計更直覺的內容串流流程，來提升
-                    檔案管理 API 的效能與可擴展性。認證與 payload 簽章方面使用 TLS 與 Ed25519，
-                    參考 AWS SigV4 的設計，以防止未授權存取容器檔案系統。
-    mopcon-2022:
-        title: "MOPCON：2022（議程組志工）"
-        company-description: >-
-            MOPCON 透過整合產業實務、工程研發、專案管理與創業活動，深入探索行動通訊，並致力
-            於培育更多人才與行動科技領域的實作應用。活動連續舉辦十一年，是南台灣最大的 IT
-            社群年度盛會。
-    nkust-gdsc-2022-10:
-        title: "NKUST GDSC：2022-10 ~ 2024/06（核心成員）"
-        company-description: >-
-            GDSC 是 Google Developer Student Clubs，由 Google Developers 支援的學生社群計畫，
-            鼓勵學生學習、分享並應用 Google 開發技術。社群由學生主導，舉辦技術課程、工作坊、
-            hackathon 與業界講師分享等活動，協助學生掌握 Android、Cloud、Web 等領域的開發技能。
-        contributions:
-            figma-course: 舉辦 Figma 使用課程與 Flutter 技術介紹活動，單次活動至少獲得 20 位成員同時響應。
-    wmjtyd-2022-07:
-        title: "WMJTYD：2022 ~ 2023（志工）"
-        company-description: >-
-            一個專注於打造高效率且可持續軟體的團隊，其中成員會分享知識並合作進行軟體開發。
-        contributions:
-            libstock:
-                title: "libstock"
-                description: >-
-                    使用 Rust 與 C 的外部函式介面（FFI）開發高效能的股票資料序列化與反序列化
-                    函式庫。此函式庫用於 WMJTYD 的交易系統，以高效率地序列化與反序列化股票資料。
-    unm-2021:
-        title: "UnblockNeteaseMusic：2020 ~ 2022（志工）"
-        company-description: >-
-            一個代理服務，會自動將網易雲音樂中不可用的歌曲替換為其他平台可用的版本。
-        contributions:
-            js-version:
-                title: "JavaScript 版本"
-                description: >-
-                    與 UnblockNeteaseMusic fork 作者（Tianling Shen）合作改進 JavaScript 版本，
-                    讓使用者能以其他平台的可用歌曲替換不可用的歌曲。
-            rust-version:
-                title: "Rust 版本"
-                description: >-
-                    開發 UnblockNeteaseMusic 的 Rust 版本，重新實作了歌曲取回的邏輯。
-                    此版本作為函式庫，供 YesPlayMusic 等依賴 UnblockNeteaseMusic 的專案使用。
-    cisc-2020:
-        title: "CISC：2020 ~（志工）"
-        company-description: >-
-            一個面向高中生的 IT 社群。我以資訊組志工身分參與該社群。
-        contributions:
-            ciscc:
-                title: "CISC Complain"
-                description: >-
-                    在 CISC 匿名分享你的意見。此專案以 TypeScript 為 Discord 平台開發。
-                    因缺乏維護而停止運作。
-    smhs-os-project-2019:
-        title: "SMHS Open Source Organization：2019 ~ 2022（志工）"
-        company-description: >-
-           一個學生志工組織，致力於為高雄市立三民高級中學（SMHS）開發開源軟體。
-        contributions:
-            cscheckin:
-                title: "CSCheckin 前端"
-                description: >-
-                    CSCheckin 是一個免費的 Web 應用程式，用於因應 COVID-19 疫情期間的線上課程需求。
-                    其整合 Google Classroom，讓老師能發起點名，學生則可線上報到。我的主要工作是使用
-                    Next.js 與 Tailwind CSS 開發前端。
-            schweb-crawler:
-                title: "SMHS 公告爬蟲"
-                description: >-
-                    針對 SMHS 校網公告的網路爬蟲，當 SMHS 網站故障時，學生仍能
-                    取得公告。以 TypeScript 撰寫並使用 Cheerio 解析 HTML。
-            smhs-epf-faq:
-                title: "SMHS 學習歷程解疑網"
-                description: >-
-                    「SMHS 學習歷程解疑網」由我們建立，為 2019 課綱的第一屆學生打造，
-                    是一個常見問題網站，說明如何建立學習歷程、如何壓縮 PDF 以供上傳，以及如何
-                    使用系統。此網站為多頁應用（MPA），使用自訂 Webpack 設定與 Pug 建置。
-    l10n-tw-2018:
-        title: "臺灣自由暨開源軟體在地化社群：2018 ~（志工）"
-        company-description: >-
-            台灣的志工社群，專注於為開源軟體產出高品質的在地化翻譯。
-        contributions:
-            translation: 以 l10n-tw 名義參與多個程式的翻譯，包含 Git、GNOME、KDE 等。
-            weblate: 維護隸屬於 {slat} 的 Weblate 翻譯平台。
-            telegram: 以版主與翻譯者身分參與 {telegram} 社群。
-        slat: SLAT
-        telegram: Telegram
+  title: 經歷
+  contributions: "貢獻："
+  more-information: "更多資訊 →"
+  zeabur-2023-04:
+    title: "Zeabur：2023-04 ~（兼職轉正職）"
+    company-description: >-
+      Zeabur 是一家雲端平台（PaaS）公司，致力於簡化開發者的部署流程。其目標是讓開發者
+      專注於撰寫程式碼，而不必被繁瑣的伺服器設定、環境建置與部署流程所困擾。
+    contributions:
+      zbpack:
+        title: "封裝系統（zbpack）的開發"
+        description: >-
+          實作並改進 Rust、Node.js、Python、Go 與 PHP 的封裝流程；新增跨 monorepo
+          workflow 的支援、Corepack 版本釘選，以及 Rye 與 uv 等新工具；並重新設計
+          封裝系統架構。zbpack 持續維護中，並持續支援新專案。
+      sspec:
+        title: "服務規格的設計"
+        description: >-
+          從零設計服務規格，並實作底層轉換器、gRPC、GraphQL、JSON schema 定義與其
+          實作。此規格成為 Zeabur templates 的標準，以及 Zeabur 內部服務的核心結構。
+      oci-registry:
+        title: "自建 OCI Registry 的設計與實作"
+        description: >-
+          實作 OCI v2 pull protocol 與針對 S3 最佳化的 push 機制；最佳化 garbage
+          collection 以降低 stop-the-world 的影響；並建立具備快取與 CDN 支援的多
+          zone registry。
+      file-management-v2:
+        title: "改進檔案管理 API"
+        description: >-
+          透過將 RESTful API 部署到每個共享叢集，並設計更直覺的內容串流流程，來提升
+          檔案管理 API 的效能與可擴展性。認證與 payload 簽章方面使用 TLS 與 Ed25519，
+          參考 AWS SigV4 的設計，以防止未授權存取容器檔案系統。
+  mopcon-2022:
+    title: "MOPCON：2022（議程組志工）"
+    company-description: >-
+      MOPCON 透過整合產業實務、工程研發、專案管理與創業活動，深入探索行動通訊，並致力
+      於培育更多人才與行動科技領域的實作應用。活動連續舉辦十一年，是南台灣最大的 IT
+      社群年度盛會。
+  nkust-gdsc-2022-10:
+    title: "NKUST GDSC：2022-10 ~ 2024/06（核心成員）"
+    company-description: >-
+      GDSC 是 Google Developer Student Clubs，由 Google Developers 支援的學生社群計畫，
+      鼓勵學生學習、分享並應用 Google 開發技術。社群由學生主導，舉辦技術課程、工作坊、
+      hackathon 與業界講師分享等活動，協助學生掌握 Android、Cloud、Web 等領域的開發技能。
+    contributions:
+      figma-course: 舉辦 Figma 使用課程與 Flutter 技術介紹活動，單次活動至少獲得 20 位成員同時響應。
+  wmjtyd-2022-07:
+    title: "WMJTYD：2022 ~ 2023（志工）"
+    company-description: >-
+      一個專注於打造高效率且可持續軟體的團隊，其中成員會分享知識並合作進行軟體開發。
+    contributions:
+      libstock:
+        title: "libstock"
+        description: >-
+          使用 Rust 與 C 的外部函式介面（FFI）開發高效能的股票資料序列化與反序列化
+          函式庫。此函式庫用於 WMJTYD 的交易系統，以高效率地序列化與反序列化股票資料。
+  unm-2021:
+    title: "UnblockNeteaseMusic：2020 ~ 2022（志工）"
+    company-description: >-
+      一個代理服務，會自動將網易雲音樂中不可用的歌曲替換為其他平台可用的版本。
+    contributions:
+      js-version:
+        title: "JavaScript 版本"
+        description: >-
+          與 UnblockNeteaseMusic fork 作者（Tianling Shen）合作改進 JavaScript 版本，
+          讓使用者能以其他平台的可用歌曲替換不可用的歌曲。
+      rust-version:
+        title: "Rust 版本"
+        description: >-
+          開發 UnblockNeteaseMusic 的 Rust 版本，重新實作了歌曲取回的邏輯。
+          此版本作為函式庫，供 YesPlayMusic 等依賴 UnblockNeteaseMusic 的專案使用。
+  cisc-2020:
+    title: "CISC：2020 ~（志工）"
+    company-description: >-
+      一個面向高中生的 IT 社群。我以資訊組志工身分參與該社群。
+    contributions:
+      ciscc:
+        title: "CISC Complain"
+        description: >-
+          在 CISC 匿名分享你的意見。此專案以 TypeScript 為 Discord 平台開發。
+          因缺乏維護而停止運作。
+  smhs-os-project-2019:
+    title: "SMHS Open Source Organization：2019 ~ 2022（志工）"
+    company-description: >-
+      一個學生志工組織，致力於為高雄市立三民高級中學（SMHS）開發開源軟體。
+    contributions:
+      cscheckin:
+        title: "CSCheckin 前端"
+        description: >-
+          CSCheckin 是一個免費的 Web 應用程式，用於因應 COVID-19 疫情期間的線上課程需求。
+          其整合 Google Classroom，讓老師能發起點名，學生則可線上報到。我的主要工作是使用
+          Next.js 與 Tailwind CSS 開發前端。
+      schweb-crawler:
+        title: "SMHS 公告爬蟲"
+        description: >-
+          針對 SMHS 校網公告的網路爬蟲，當 SMHS 網站故障時，學生仍能
+          取得公告。以 TypeScript 撰寫並使用 Cheerio 解析 HTML。
+      smhs-epf-faq:
+        title: "SMHS 學習歷程解疑網"
+        description: >-
+          「SMHS 學習歷程解疑網」由我們建立，為 2019 課綱的第一屆學生打造，
+          是一個常見問題網站，說明如何建立學習歷程、如何壓縮 PDF 以供上傳，以及如何
+          使用系統。此網站為多頁應用（MPA），使用自訂 Webpack 設定與 Pug 建置。
+  l10n-tw-2018:
+    title: "臺灣自由暨開源軟體在地化社群：2018 ~（志工）"
+    company-description: >-
+      台灣的志工社群，專注於為開源軟體產出高品質的在地化翻譯。
+    contributions:
+      translation: 以 l10n-tw 名義參與多個程式的翻譯，包含 Git、GNOME、KDE 等。
+      weblate: 維護隸屬於 {slat} 的 Weblate 翻譯平台。
+      telegram: 以版主與翻譯者身分參與 {telegram} 社群。
+    slat: SLAT
+    telegram: Telegram
 slides:
-    title: 演講紀錄
-    slide: 投影片
-    article: 文章
+  title: 演講紀錄
+  slide: 投影片
+  article: 文章
 referrals:
-    title: 推薦連結
+  title: 推薦連結
+  description: >-
+    這些連結是我推薦的產品與服務的推薦連結。如果你對這些產品有興趣，歡迎使用我的推薦連結註冊，這樣可以同時支持服務，我也能獲得提成。
+  register-now: "立刻註冊 →"
+  zeabur:
+    title: Zeabur
     description: >-
-        這些連結是我推薦的產品與服務的推薦連結。如果你對這些產品有興趣，歡迎使用我的推薦連結註冊，這樣可以同時支持服務，我也能獲得提成。
-    register-now: "立刻註冊 →"
-    zeabur:
-        title: Zeabur
-        description: >-
-            Zeabur 是一個由 AI 驅動，幫助您將寫好的程式碼部署上線，而無需擔憂伺服器設定、資安和 CI/CD 設定。Zeabur 的 AI 會替您分析程式碼並自動撰寫 Dockerfile，瞬間將應用程式部署至全託管平台；提供多個部署區域，無論受眾位於何處，都能快速瀏覽您的網站。我們也內建資料庫、InsForge（Supabase 的替代方案）、WAF 資安防護及 AI Hub API，給您零設定、完全安心的部署體驗。
-    bunny-cdn:
-        title: Bunny CDN
-        description: >-
-            體驗全方位的邊緣平台，包含有台灣節點的低延遲 CDN、高速儲存空間、具備負載平衡的智慧 DNS，以及強大的 WAF 資安防護，且所有功能皆可高度自訂。告別 Cloudflare 的僵化合約與緩慢客服，享受「用多少付多少」的完全自由，以及一個隨時為您提供協助的支援團隊。
+      Zeabur 是一個由 AI 驅動，幫助您將寫好的程式碼部署上線，而無需擔憂伺服器設定、資安和 CI/CD 設定。Zeabur 的 AI 會替您分析程式碼並自動撰寫 Dockerfile，瞬間將應用程式部署至全託管平台；提供多個部署區域，無論受眾位於何處，都能快速瀏覽您的網站。我們也內建資料庫、InsForge（Supabase 的替代方案）、WAF 資安防護及 AI Hub API，給您零設定、完全安心的部署體驗。
+  bunny-cdn:
+    title: Bunny CDN
+    description: >-
+      體驗全方位的邊緣平台，包含有台灣節點的低延遲 CDN、高速儲存空間、具備負載平衡的智慧 DNS，以及強大的 WAF 資安防護，且所有功能皆可高度自訂。告別 Cloudflare 的僵化合約與緩慢客服，享受「用多少付多少」的完全自由，以及一個隨時為您提供協助的支援團隊。
 social-media:
-    title: 社群媒體
-    description: >-
-        你可以透過 Threads、X 或其他社群媒體平台聯絡我。
-        我主要活躍於 Telegram、X 與 Threads。
-    email: 電子郵件
+  title: 社群媒體
+  description: >-
+    你可以透過 Threads、X 或其他社群媒體平台聯絡我。
+    我主要活躍於 Telegram、X 與 Threads。
+  email: 電子郵件
 punctuation:
-    colon: "："
+  colon: "："

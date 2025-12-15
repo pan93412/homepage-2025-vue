@@ -1,11 +1,12 @@
 @import "tailwindcss";
 
 @layer base {
-    body {
-        @apply bg-neutral-50 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100 font-serif leading-relaxed;
-    }
+  body {
+    @apply bg-neutral-50 text-neutral-900 dark:bg-neutral-900
+      dark:text-neutral-100 font-serif leading-relaxed;
+  }
 
-    a {
-        @apply text-blue-800 dark:text-blue-400 underline;
-    }
+  a {
+    @apply text-blue-800 dark:text-blue-400 underline;
+  }
 }

@@ -1,313 +1,313 @@
 table-of-contents: Table of Contents
 header:
-    title: Yi-Jyun Pan
-    description1: I am a backend engineer at {company} and an undergraduate based in Kaohsiung, Taiwan 🇹🇼.
-    description2: I develop, design, and translate. Occasionally, I contribute to open-source software (OSS).
+  title: Yi-Jyun Pan
+  description1: I am a backend engineer at {company} and an undergraduate based in Kaohsiung, Taiwan 🇹🇼.
+  description2: I develop, design, and translate. Occasionally, I contribute to open-source software (OSS).
 about:
-    title: About me
-    description: I am a full-stack developer with expertise in a wide range of technologies.
-    frontend:
-        title: Frontend
-        description: >-
-            Mainly using React.js, TypeScript, and Next.js. Use Vue.js, Nuxt,
-            and Vite for small projects.
-    backend:
-        title: Backend
-        description: >-
-            Mainly using Go, Rust, PHP, and Node.js.
-    cloud:
-        title: Cloud
-        description: >-
-            For PaaS solutions, I have extensive experience with Zeabur and Vercel,
-            ensuring applications run seamlessly on such platforms. I am also familiar
-            with object storages like S3, CDN configurations on Cloudflare and Bunny CDN.
-    infra:
-        title: Infrastructure
-        description: >-
-            My works on Zeabur involve a lot of Kubernetes, Docker, and Git. For example,
-            I can set up a simple Kubernetes cluster with K3s, manage it, and deploy
-            applications to it with Helm or generic YAML manifests. I can also set up
-            a CI/CD pipeline using GitHub Actions.
-    llm:
-        title: Large Language Models
-        description: >-
-            I am proficient in various models, including GPT, Claude, Gemini, DeepSeek, Perplexity, and others.
-            I understand their optimal use cases and API integrations. I can develop an LLM
-            Agent using LangChain and the Vercel AI SDK. Additionally, I can build a RAG
-            pipeline with LangChain utilizing Voyage AI's models, and create an MCP server
-            for general tools for agents.
-    data-analysis:
-        title: Data Analysis
-        description: >-
-            I can do data analysis using Python, Pandas / Polars, and visualization with
-            Matplotlib / Seaborn / Plotly. I also have a basic understanding of statistical
-            analysis, such as t-tests, ANOVA, Chi-square test, and p-values, although I am not
-            highly skilled in them.
-    machine-learning:
-        title: Machine Learning
-        description: >-
-            I can do some machine learning using Python, Scikit-learn, and TensorFlow Keras.
-            I have experience with the development of machine learning models, such as
-            classification, regression, clustering, and dimensionality reduction.
-            Although I am not highly skilled in them.
-    apple-ecosystem:
-        title: Apple Ecosystem
-        description: >-
-            I design apps using Swift for the Apple ecosystem and
-            React Native as an amateur. I have experience with the development of
-            macOS and iOS apps, such as {string-catalog-merger} and helping improve
-            concurrency in some Swift projects.
-        string-catalog-merger: a helper for merging the string catalog
-    engineering:
-        title: Engineering Practices
-        description: >-
-            I am familiar with established contribution flows and committing guidelines,
-            such as {conventional-commits}. I respect the linters, formatters, and type checkers.
-        conventional-commits: Conventional Commits
-    designing:
-        title: Designing
-        description: >-
-            I can create UI mockup and wireframes with Figma, and have some experiences on
-            using Adobe Suites like Photoshop, Illustrator, and Premiere Pro to present my works.
-    cloud-portfolio: >-
-        I prefer cloud-native and scalable solutions. I have applied
-        microservice architectures and techniques on several projects,
-        which you can find on the Projects section.
-    solutions-engineering-portfolio: >-
-        I consistently explore best practices and scalable solutions in
-        software engineering, and share my finding on Threads, X and my blog.
-        Feel free to share your opinions with me!
-    oss-contributions: >-
-        I am an active contributor to open-source projects such as Symfony,
-        Git, Keka, and various GNU software. Additionally, I actively
-        participate in several developer communities on Telegram and Discord,
-        where you can often find me.
+  title: About me
+  description: I am a full-stack developer with expertise in a wide range of technologies.
+  frontend:
+    title: Frontend
+    description: >-
+      Mainly using React.js, TypeScript, and Next.js. Use Vue.js, Nuxt,
+      and Vite for small projects.
+  backend:
+    title: Backend
+    description: >-
+      Mainly using Go, Rust, PHP, and Node.js.
+  cloud:
+    title: Cloud
+    description: >-
+      For PaaS solutions, I have extensive experience with Zeabur and Vercel,
+      ensuring applications run seamlessly on such platforms. I am also familiar
+      with object storages like S3, CDN configurations on Cloudflare and Bunny CDN.
+  infra:
+    title: Infrastructure
+    description: >-
+      My works on Zeabur involve a lot of Kubernetes, Docker, and Git. For example,
+      I can set up a simple Kubernetes cluster with K3s, manage it, and deploy
+      applications to it with Helm or generic YAML manifests. I can also set up
+      a CI/CD pipeline using GitHub Actions.
+  llm:
+    title: Large Language Models
+    description: >-
+      I am proficient in various models, including GPT, Claude, Gemini, DeepSeek, Perplexity, and others.
+      I understand their optimal use cases and API integrations. I can develop an LLM
+      Agent using LangChain and the Vercel AI SDK. Additionally, I can build a RAG
+      pipeline with LangChain utilizing Voyage AI's models, and create an MCP server
+      for general tools for agents.
+  data-analysis:
+    title: Data Analysis
+    description: >-
+      I can do data analysis using Python, Pandas / Polars, and visualization with
+      Matplotlib / Seaborn / Plotly. I also have a basic understanding of statistical
+      analysis, such as t-tests, ANOVA, Chi-square test, and p-values, although I am not
+      highly skilled in them.
+  machine-learning:
+    title: Machine Learning
+    description: >-
+      I can do some machine learning using Python, Scikit-learn, and TensorFlow Keras.
+      I have experience with the development of machine learning models, such as
+      classification, regression, clustering, and dimensionality reduction.
+      Although I am not highly skilled in them.
+  apple-ecosystem:
+    title: Apple Ecosystem
+    description: >-
+      I design apps using Swift for the Apple ecosystem and
+      React Native as an amateur. I have experience with the development of
+      macOS and iOS apps, such as {string-catalog-merger} and helping improve
+      concurrency in some Swift projects.
+    string-catalog-merger: a helper for merging the string catalog
+  engineering:
+    title: Engineering Practices
+    description: >-
+      I am familiar with established contribution flows and committing guidelines,
+      such as {conventional-commits}. I respect the linters, formatters, and type checkers.
+    conventional-commits: Conventional Commits
+  designing:
+    title: Designing
+    description: >-
+      I can create UI mockup and wireframes with Figma, and have some experiences on
+      using Adobe Suites like Photoshop, Illustrator, and Premiere Pro to present my works.
+  cloud-portfolio: >-
+    I prefer cloud-native and scalable solutions. I have applied
+    microservice architectures and techniques on several projects,
+    which you can find on the Projects section.
+  solutions-engineering-portfolio: >-
+    I consistently explore best practices and scalable solutions in
+    software engineering, and share my finding on Threads, X and my blog.
+    Feel free to share your opinions with me!
+  oss-contributions: >-
+    I am an active contributor to open-source projects such as Symfony,
+    Git, Keka, and various GNU software. Additionally, I actively
+    participate in several developer communities on Telegram and Discord,
+    where you can often find me.
 projects:
-    title: Projects
+  title: Projects
+  description: >-
+    Most of my exciting projects are open-sourced on {my-github} and the organization I created.
+    I have pinned some projects that showcase my skills. I also maintain a {blog}, where I share my
+    thoughts and technical insights.
+  my-github: my GitHub (pan93412)
+  blog: blog (blog.pan93.com)
+  nkust-iot-2024-06:
+    title: 2024/06 - NKUST IC IoT Projects (Go)
     description: >-
-        Most of my exciting projects are open-sourced on {my-github} and the organization I created.
-        I have pinned some projects that showcase my skills. I also maintain a {blog}, where I share my
-        thoughts and technical insights.
-    my-github: my GitHub (pan93412)
-    blog: blog (blog.pan93.com)
-    nkust-iot-2024-06:
-        title: 2024/06 - NKUST IC IoT Projects (Go)
-        description: >-
-            A final project for the IoT course that can quickly detect and alert for intruders,
-            based on the Raspberry Pi 3 hardware. It is written in Go and uses a microservice
-            architecture, incorporating RabbitMQ, GraphQL, gRPC, OpenTelemetry, mTLS, PostgreSQL, and more.
-    database-playground-2024-07:
-        title: 2024/07 - Database Playground (PHP)
-        description: >-
-            A SQL practice platform for our course, also serving as an NSTC Undergraduate
-            Research ('24) project ("Use reminders and reference feedback mechanisms realized
-            by GPT models in generating personalized content to enhance students' willingness to
-            learn: A case study of a database learning gamification platform"). It is built on
-            Symfony, with Go used for performance-critical services such as the SQL runner.
-    nkust-iot-2024-12:
-        title: 2024/12 - NKUST IC IoT Projects (Rust)
-        description: >-
-            An extended project for the IoT course that quickly detects and alerts for intruders,
-            using software with GStreamer for the webcams. It is written in Rust and employs a
-            microservice architecture, incorporating Cloudflare R2, GraphQL, NATS, PostgreSQL,
-            GStreamer, YOLO, and more. It is designed for asynchronous operations and the worker pattern.
-    yolo-rs-2024-12:
-        title: 2024/12 - YOLO-RS
-        description: >-
-            A Rust implementation of YOLO (You Only Look Once), a real-time object detection algorithm,
-            achieves 17 FPS with the largest YOLO model (YOLO11x).
-    crawler-2025-04:
-        title: 2025/04 - NKUST Crawler Projects
-        description: >-
-            A crawler project for the NKUST IC data analysis course, written in Go.
-            The toolkits can crawl and scrape data from Yahoo News, Dcard, PTT, Mobile01, and more.
-            They also perform data cleaning and visualization using Streamlit.
-    coscup-2025-07:
-        title: 2025/07 - COSCUP 2025 - Sessions page
-        description: >-
-            A completely-rewritten sessions page for COSCUP 2025, built with VitePress, features a
-            responsive design that works on both desktop and mobile devices. It addresses many
-            limitations of the platform, such as pre-rendering all session pages, minimizing the
-            bundle size, and working around the Pretalx API limitations.
-    database-playground-2025-08:
-        title: 2025/08 - Database Playground (Go)
-        description: >-
-            This is a rewrite of the previous Symfony-based SQL practice platform, which also serves as an NSTC
-            Undergraduate Research ('25) project. It focuses on AI agents and high extensibility. The platform is
-            built on Go for the backend and SQL runner, without using any framework, and Next.js for the frontend
-            and admin interface. It incorporates the Vercel AI SDK for LLM integrations and PostHog for product
-            analytics, LLM observability, and behavior tracking. The project faces challenges in security, such
-            as OAuth and permission management, as well as scalability, including database replication and
-            microservices. All components and tech choices are open-sourced on GitHub as documentation.
-    virtual-doctor-2025-12:
-        title: 2025/12 - Virtual Doctor (Python, not open-sourced yet)
-        description: >-
-            A virtual doctor project for the graduation project of NKUST IC, written in Python. This project serves as a virtual doctor
-            for elderly individuals, retrieving medical knowledge from our internal database using RAG. It assesses the user's health
-            condition with MCP and integrates this information with a large language model (LLM) to provide daily life recommendations.
-            Additionally, it offers a digital doctor based on LiveTalking, which mimics the doctor's voice and lip movements,
-            helping elderly patients feel more comfortable and engaged, as if they are conversing with a real doctor.
+      A final project for the IoT course that can quickly detect and alert for intruders,
+      based on the Raspberry Pi 3 hardware. It is written in Go and uses a microservice
+      architecture, incorporating RabbitMQ, GraphQL, gRPC, OpenTelemetry, mTLS, PostgreSQL, and more.
+  database-playground-2024-07:
+    title: 2024/07 - Database Playground (PHP)
+    description: >-
+      A SQL practice platform for our course, also serving as an NSTC Undergraduate
+      Research ('24) project ("Use reminders and reference feedback mechanisms realized
+      by GPT models in generating personalized content to enhance students' willingness to
+      learn: A case study of a database learning gamification platform"). It is built on
+      Symfony, with Go used for performance-critical services such as the SQL runner.
+  nkust-iot-2024-12:
+    title: 2024/12 - NKUST IC IoT Projects (Rust)
+    description: >-
+      An extended project for the IoT course that quickly detects and alerts for intruders,
+      using software with GStreamer for the webcams. It is written in Rust and employs a
+      microservice architecture, incorporating Cloudflare R2, GraphQL, NATS, PostgreSQL,
+      GStreamer, YOLO, and more. It is designed for asynchronous operations and the worker pattern.
+  yolo-rs-2024-12:
+    title: 2024/12 - YOLO-RS
+    description: >-
+      A Rust implementation of YOLO (You Only Look Once), a real-time object detection algorithm,
+      achieves 17 FPS with the largest YOLO model (YOLO11x).
+  crawler-2025-04:
+    title: 2025/04 - NKUST Crawler Projects
+    description: >-
+      A crawler project for the NKUST IC data analysis course, written in Go.
+      The toolkits can crawl and scrape data from Yahoo News, Dcard, PTT, Mobile01, and more.
+      They also perform data cleaning and visualization using Streamlit.
+  coscup-2025-07:
+    title: 2025/07 - COSCUP 2025 - Sessions page
+    description: >-
+      A completely-rewritten sessions page for COSCUP 2025, built with VitePress, features a
+      responsive design that works on both desktop and mobile devices. It addresses many
+      limitations of the platform, such as pre-rendering all session pages, minimizing the
+      bundle size, and working around the Pretalx API limitations.
+  database-playground-2025-08:
+    title: 2025/08 - Database Playground (Go)
+    description: >-
+      This is a rewrite of the previous Symfony-based SQL practice platform, which also serves as an NSTC
+      Undergraduate Research ('25) project. It focuses on AI agents and high extensibility. The platform is
+      built on Go for the backend and SQL runner, without using any framework, and Next.js for the frontend
+      and admin interface. It incorporates the Vercel AI SDK for LLM integrations and PostHog for product
+      analytics, LLM observability, and behavior tracking. The project faces challenges in security, such
+      as OAuth and permission management, as well as scalability, including database replication and
+      microservices. All components and tech choices are open-sourced on GitHub as documentation.
+  virtual-doctor-2025-12:
+    title: 2025/12 - Virtual Doctor (Python, not open-sourced yet)
+    description: >-
+      A virtual doctor project for the graduation project of NKUST IC, written in Python. This project serves as a virtual doctor
+      for elderly individuals, retrieving medical knowledge from our internal database using RAG. It assesses the user's health
+      condition with MCP and integrates this information with a large language model (LLM) to provide daily life recommendations.
+      Additionally, it offers a digital doctor based on LiveTalking, which mimics the doctor's voice and lip movements,
+      helping elderly patients feel more comfortable and engaged, as if they are conversing with a real doctor.
 experiences:
-    title: Experiences
-    contributions: "Contributions:"
-    more-information: "More information →"
-    zeabur-2023-04:
-        title: "Zeabur: 2023-04 ~ (part-time to full-time)"
-        company-description: >-
-            Zeabur is a cloud platform company (PaaS) dedicated to simplifying
-            application deployment processes for developers. Its goal is to let developers
-            focus on writing code without being burdened by tedious server configuration,
-            environment setup, and deployment workflows.
-        contributions:
-            zbpack:
-                title: "Development of the packaging system (zbpack)"
-                description: >-
-                    Implemented and improved packaging for Rust, Node.js, Python, Go, and PHP;
-                    added support for cross-monorepo workflows, Corepack version pinning, and new tools
-                    like Rye and uv; redesigned the packaging system architecture. zbpack has been maintained
-                    and continues to support new projects.
-            sspec:
-                title: "Design of the service specification"
-                description: >-
-                    Designed the service specification from scratch, implemented the underlying converter, gRPC, GraphQL,
-                    JSON schema definition, and its implementation. The specification became the standard for
-                    Zeabur templates and the core structure of Zeabur internal services.
-            oci-registry:
-                title: "Designing and implementing the own OCI Registry"
-                description: >-
-                    Implemented the OCI v2 pull protocol and our S3-optimized push mechanism,
-                    optimized garbage collection to minimize the impact of stop-the-world, and
-                    established a multi-zone registry with caching and CDN support.
-            file-management-v2:
-                title: "Optimize file management API"
-                description: >-
-                    Optimized the file management API to enhance performance and scalability by deploying a
-                    RESTful API to each shared cluster and designing a more straightforward content streaming
-                    process. Utilized TLS and Ed25519 for authentication and payload signing, inspired by AWS
-                    SigV4, to prevent unauthorized access to the container filesystem.
-    mopcon-2022:
-        title: "MOPCON: 2022 (Agenda Group volunteer)"
-        company-description: >-
-            MOPCON conducts in-depth exploration of mobile communications by integrating industry practices,
-            engineering research and development, project management, and entrepreneurial activities, aiming
-            to cultivate more talent and practical applications in the mobile technology field. Held for eleven
-            consecutive years, it is the largest IT community annual meeting in southern Taiwan.
-    nkust-gdsc-2022-10:
-        title: "NKUST GDSC: 2022-10 ~ 2024/06 (Core Member)"
-        company-description: >-
-            GDSC stands for Google Developer Student Clubs, a student community program supported
-            by Google Developers that encourages students to learn, share, and apply Google development
-            technologies. The community is student-run and organizes activities such as technical courses,
-            workshops, hackathons, and guest lectures by industry professionals, helping students master development
-            skills in areas like Android, Cloud, and Web.
-        contributions:
-            figma-course: Organized Figma usage courses and Flutter technology introduction events, receiving simultaneous responses from at least 20 members.
-    wmjtyd-2022-07:
-        title: "WMJTYD: 2022 ~ 2023 (volunteer)"
-        company-description: >-
-            A team focuses on developing highly efficient and sustainable software.
-            They share knowledge and collaborate on software development.
-        contributions:
-            libstock:
-                title: "libstock"
-                description: >-
-                    Developed a high-performance serialization and deserialization library for
-                    stock data using Rust and C as the foreign function interface (FFI).
-                    This library is utilized in the WMJTYD trading system to efficiently
-                    serialize and deserialize stock data.
-    unm-2021:
-        title: "UnblockNeteaseMusic: 2020 ~ 2022 (volunteer)"
-        company-description: >-
-            A proxy that automatically replaces unavailable songs on Netease Cloud Music
-            with the available ones on other platforms.
-        contributions:
-            js-version:
-                title: "JavaScript Version"
-                description: >-
-                    Collaborate with the fork author (Tianling Shen) to improve the JavaScript version
-                    of UnblockNeteaseMusic, allowing users to replace unavailable songs with available
-                    ones on other platforms.
-            rust-version:
-                title: "Rust Version"
-                description: >-
-                    Developed the Rust version of UnblockNeteaseMusic by re-implementing the song retrieval
-                    logic in Rust. This version serves as a library for projects depending on UnblockNeteaseMusic
-                    like YesPlayMusic.
-    cisc-2020:
-        title: "CISC: 2020 ~ (volunteer)"
-        company-description: >-
-            A IT community for senior high school students.
-            I participated in the community as an volunteer in information group.
-        contributions:
-            ciscc:
-                title: "CISC Complain"
-                description: >-
-                    Share your opinions anonymously in CISC. It is developed with TypeScript
-                    for the Discord platform. Abandoned due to a lack of maintenance.
-    smhs-os-project-2019:
-        title: "SMHS Open Source Organization: 2019 ~ 2022 (volunteer)"
-        company-description: >-
-           A student volunteer organization dedicated to developing open-source software
-           for Kaohsiung Municipal Sanmin Senior High School (SMHS).
-        contributions:
-            cscheckin:
-                title: "CSCheckin Frontend"
-                description: >-
-                    CSCheckin is a free web application designed for online course requirements during the COVID-19 pandemic.
-                    It integrates with Google Classroom, enabling teachers to initiate check-in sessions for students to join.
-                    I mainly developed the frontend with Next.js and Tailwind CSS.
-            schweb-crawler:
-                title: "Schweb Crawler"
-                description: >-
-                    SchWeb Crawler is a web crawler for the SMHS announcements, useful for
-                    students to get the announcements even when the SMHS website is down.
-                    It is written in TypeScript with Cheerio to parse the HTML.
-            smhs-epf-faq:
-                title: "SMHS EPF FAQ"
-                description: >-
-                    "SMHS e-Portfolio FAQ site" was created by us, the first cohort under the
-                    2019 curriculum guidelines, as an FAQ website about how to create a learning portfolio,
-                    how to compress PDFs for upload, and how to use the system. It is a multi-page application
-                    (MPA) built with a custom Webpack configuration and Pug.
-    l10n-tw-2018:
-        title: "Taiwan F.O.S.S. Localization Community: 2018 ~ (volunteer)"
-        company-description: >-
-            A volunteer community in Taiwan focuses on producing high-quality
-            translations for open-source software.
-        contributions:
-            translation: Participated in the translation of various programs under the name l10n-tw, including Git, GNOME, KDE, etc.
-            weblate: Maintained the Weblate translation platform affiliated with the {slat}.
-            telegram: Participated in the {telegram} community as a moderator and translator.
-        slat: SLAT
-        telegram: Telegram
+  title: Experiences
+  contributions: "Contributions:"
+  more-information: "More information →"
+  zeabur-2023-04:
+    title: "Zeabur: 2023-04 ~ (part-time to full-time)"
+    company-description: >-
+      Zeabur is a cloud platform company (PaaS) dedicated to simplifying
+      application deployment processes for developers. Its goal is to let developers
+      focus on writing code without being burdened by tedious server configuration,
+      environment setup, and deployment workflows.
+    contributions:
+      zbpack:
+        title: "Development of the packaging system (zbpack)"
+        description: >-
+          Implemented and improved packaging for Rust, Node.js, Python, Go, and PHP;
+          added support for cross-monorepo workflows, Corepack version pinning, and new tools
+          like Rye and uv; redesigned the packaging system architecture. zbpack has been maintained
+          and continues to support new projects.
+      sspec:
+        title: "Design of the service specification"
+        description: >-
+          Designed the service specification from scratch, implemented the underlying converter, gRPC, GraphQL,
+          JSON schema definition, and its implementation. The specification became the standard for
+          Zeabur templates and the core structure of Zeabur internal services.
+      oci-registry:
+        title: "Designing and implementing the own OCI Registry"
+        description: >-
+          Implemented the OCI v2 pull protocol and our S3-optimized push mechanism,
+          optimized garbage collection to minimize the impact of stop-the-world, and
+          established a multi-zone registry with caching and CDN support.
+      file-management-v2:
+        title: "Optimize file management API"
+        description: >-
+          Optimized the file management API to enhance performance and scalability by deploying a
+          RESTful API to each shared cluster and designing a more straightforward content streaming
+          process. Utilized TLS and Ed25519 for authentication and payload signing, inspired by AWS
+          SigV4, to prevent unauthorized access to the container filesystem.
+  mopcon-2022:
+    title: "MOPCON: 2022 (Agenda Group volunteer)"
+    company-description: >-
+      MOPCON conducts in-depth exploration of mobile communications by integrating industry practices,
+      engineering research and development, project management, and entrepreneurial activities, aiming
+      to cultivate more talent and practical applications in the mobile technology field. Held for eleven
+      consecutive years, it is the largest IT community annual meeting in southern Taiwan.
+  nkust-gdsc-2022-10:
+    title: "NKUST GDSC: 2022-10 ~ 2024/06 (Core Member)"
+    company-description: >-
+      GDSC stands for Google Developer Student Clubs, a student community program supported
+      by Google Developers that encourages students to learn, share, and apply Google development
+      technologies. The community is student-run and organizes activities such as technical courses,
+      workshops, hackathons, and guest lectures by industry professionals, helping students master development
+      skills in areas like Android, Cloud, and Web.
+    contributions:
+      figma-course: Organized Figma usage courses and Flutter technology introduction events, receiving simultaneous responses from at least 20 members.
+  wmjtyd-2022-07:
+    title: "WMJTYD: 2022 ~ 2023 (volunteer)"
+    company-description: >-
+      A team focuses on developing highly efficient and sustainable software.
+      They share knowledge and collaborate on software development.
+    contributions:
+      libstock:
+        title: "libstock"
+        description: >-
+          Developed a high-performance serialization and deserialization library for
+          stock data using Rust and C as the foreign function interface (FFI).
+          This library is utilized in the WMJTYD trading system to efficiently
+          serialize and deserialize stock data.
+  unm-2021:
+    title: "UnblockNeteaseMusic: 2020 ~ 2022 (volunteer)"
+    company-description: >-
+      A proxy that automatically replaces unavailable songs on Netease Cloud Music
+      with the available ones on other platforms.
+    contributions:
+      js-version:
+        title: "JavaScript Version"
+        description: >-
+          Collaborate with the fork author (Tianling Shen) to improve the JavaScript version
+          of UnblockNeteaseMusic, allowing users to replace unavailable songs with available
+          ones on other platforms.
+      rust-version:
+        title: "Rust Version"
+        description: >-
+          Developed the Rust version of UnblockNeteaseMusic by re-implementing the song retrieval
+          logic in Rust. This version serves as a library for projects depending on UnblockNeteaseMusic
+          like YesPlayMusic.
+  cisc-2020:
+    title: "CISC: 2020 ~ (volunteer)"
+    company-description: >-
+      A IT community for senior high school students.
+      I participated in the community as an volunteer in information group.
+    contributions:
+      ciscc:
+        title: "CISC Complain"
+        description: >-
+          Share your opinions anonymously in CISC. It is developed with TypeScript
+          for the Discord platform. Abandoned due to a lack of maintenance.
+  smhs-os-project-2019:
+    title: "SMHS Open Source Organization: 2019 ~ 2022 (volunteer)"
+    company-description: >-
+      A student volunteer organization dedicated to developing open-source software
+      for Kaohsiung Municipal Sanmin Senior High School (SMHS).
+    contributions:
+      cscheckin:
+        title: "CSCheckin Frontend"
+        description: >-
+          CSCheckin is a free web application designed for online course requirements during the COVID-19 pandemic.
+          It integrates with Google Classroom, enabling teachers to initiate check-in sessions for students to join.
+          I mainly developed the frontend with Next.js and Tailwind CSS.
+      schweb-crawler:
+        title: "Schweb Crawler"
+        description: >-
+          SchWeb Crawler is a web crawler for the SMHS announcements, useful for
+          students to get the announcements even when the SMHS website is down.
+          It is written in TypeScript with Cheerio to parse the HTML.
+      smhs-epf-faq:
+        title: "SMHS EPF FAQ"
+        description: >-
+          "SMHS e-Portfolio FAQ site" was created by us, the first cohort under the
+          2019 curriculum guidelines, as an FAQ website about how to create a learning portfolio,
+          how to compress PDFs for upload, and how to use the system. It is a multi-page application
+          (MPA) built with a custom Webpack configuration and Pug.
+  l10n-tw-2018:
+    title: "Taiwan F.O.S.S. Localization Community: 2018 ~ (volunteer)"
+    company-description: >-
+      A volunteer community in Taiwan focuses on producing high-quality
+      translations for open-source software.
+    contributions:
+      translation: Participated in the translation of various programs under the name l10n-tw, including Git, GNOME, KDE, etc.
+      weblate: Maintained the Weblate translation platform affiliated with the {slat}.
+      telegram: Participated in the {telegram} community as a moderator and translator.
+    slat: SLAT
+    telegram: Telegram
 slides:
-    title: Slides 
-    slide: Slide
-    article: Article
+  title: Slides
+  slide: Slide
+  article: Article
 referrals:
-    title: Referrals
+  title: Referrals
+  description: >-
+    These links are referral links for my recommended products and services.
+    If you are interested in any of them, please feel free to use my referral
+    links to register. It supports both the services and me.
+  register-now: "Register now →"
+  zeabur:
+    title: Zeabur
     description: >-
-        These links are referral links for my recommended products and services.
-        If you are interested in any of them, please feel free to use my referral
-        links to register. It supports both the services and me.
-    register-now: "Register now →"
-    zeabur:
-        title: Zeabur
-        description: >-
-            Zeabur takes your code from local to live—without the headache of server management, security, or CI/CD setups.
+      Zeabur takes your code from local to live—without the headache of server management, security, or CI/CD setups.
 
-            Our AI intelligently analyzes your project to auto-generate Dockerfiles, instantly deploying your app to a fully managed platform. With multiple global regions available, your users enjoy lightning-fast access no matter where they are.
+      Our AI intelligently analyzes your project to auto-generate Dockerfiles, instantly deploying your app to a fully managed platform. With multiple global regions available, your users enjoy lightning-fast access no matter where they are.
 
-            Packed with built-in Databases, InsForge (a powerful Supabase alternative), robust WAF protection, and AI Hub APIs, Zeabur delivers a true zero-configuration experience. Deploy with total peace of mind.
-    bunny-cdn:
-        title: Bunny CDN
-        description: >-
-            Experience a complete edge platform featuring the low-latency CDN, high-speed Storage, Smart DNS with load balancing, and robust WAF security—all fully customizable. Say goodbye to Cloudflare’s rigid contracts and slow support; enjoy total freedom with pay-as-you-go pricing and a team that’s always there to help.
+      Packed with built-in Databases, InsForge (a powerful Supabase alternative), robust WAF protection, and AI Hub APIs, Zeabur delivers a true zero-configuration experience. Deploy with total peace of mind.
+  bunny-cdn:
+    title: Bunny CDN
+    description: >-
+      Experience a complete edge platform featuring the low-latency CDN, high-speed Storage, Smart DNS with load balancing, and robust WAF security—all fully customizable. Say goodbye to Cloudflare’s rigid contracts and slow support; enjoy total freedom with pay-as-you-go pricing and a team that’s always there to help.
 social-media:
-    title: Social Media
-    description: >-
-        You can reach me via Threads, X, or other social media platforms.
-        I am mostly active on Telegram, X and Threads.
-    email: E-mail
+  title: Social Media
+  description: >-
+    You can reach me via Threads, X, or other social media platforms.
+    I am mostly active on Telegram, X and Threads.
+  email: E-mail
 punctuation:
-    colon: ": "
+  colon: ": "

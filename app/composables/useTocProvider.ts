@@ -1,4 +1,4 @@
-import { provide, inject, ref, type InjectionKey } from 'vue';
+import { inject, type InjectionKey, provide, ref } from "vue";
 
 export interface TocItem {
   id: string;
@@ -14,7 +14,7 @@ interface TocContext {
   updateElement: (id: string, element: HTMLElement) => void;
 }
 
-const TocContextKey: InjectionKey<TocContext> = Symbol('TocContext');
+const TocContextKey: InjectionKey<TocContext> = Symbol("TocContext");
 
 export function provideTocContext() {
   const items = ref<Map<string, TocItem>>(new Map());
@@ -53,7 +53,7 @@ export function provideTocContext() {
 export function useTocContext() {
   const context = inject(TocContextKey);
   if (!context) {
-    throw new Error('useTocContext must be used within a TocProvider');
+    throw new Error("useTocContext must be used within a TocProvider");
   }
   return context;
 }

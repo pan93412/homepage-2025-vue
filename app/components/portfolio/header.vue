@@ -1,36 +1,40 @@
 <template>
-    <header class="mx-auto py-8 bg-neutral-100 dark:bg-neutral-800 mb-4 overflow-hidden relative">
-        <div class="container mx-auto space-y-1 px-4">
-            <h1 class="text-2xl font-bold">{{ $t('header.title') }}</h1>
+  <header class="mx-auto py-8 bg-neutral-100 dark:bg-neutral-800 mb-4 overflow-hidden relative">
+    <div class="container mx-auto space-y-1 px-4">
+      <h1 class="text-2xl font-bold">{{ $t("header.title") }}</h1>
 
-            <article>
-                <i18n-t keypath="header.description1" tag="span" scope="global">
-                    <template #company>
-                        <NuxtLink href="https://zeabur.com">Zeabur</NuxtLink>
-                    </template>
-                </i18n-t>
-                <br>
-                {{ $t('header.description2') }}
-            </article>
+      <article>
+        <i18n-t keypath="header.description1" tag="span" scope="global">
+          <template #company>
+            <NuxtLink href="https://zeabur.com">Zeabur</NuxtLink>
+          </template>
+        </i18n-t>
+        <br>
+        {{ $t("header.description2") }}
+      </article>
 
-            <nav>
-                <ul class="flex items-center gap-1">
-                    <LanguageSwitcher />
-                </ul>
-            </nav>
+      <nav>
+        <ul class="flex items-center gap-1">
+          <LanguageSwitcher />
+        </ul>
+      </nav>
 
-            <div class="absolute top-1/2 -translate-y-1/2 right-4" aria-hidden="true" role="presentation">
-                <NuxtImg
-                    src="/avatar.avif"
-                    format="avif"
-                    loading="lazy"
-                    fetch-priority="low"
-                    width="320"
-                    height="320"
-                    alt="Avatar"
-                    class="w-80 h-80 opacity-25 rounded-full"
-                />
-            </div>
-        </div>
-    </header>
+      <div
+        class="absolute top-1/2 -translate-y-1/2 right-4"
+        aria-hidden="true"
+        role="presentation"
+      >
+        <NuxtImg
+          src="/avatar.avif"
+          format="avif"
+          loading="lazy"
+          fetch-priority="low"
+          width="320"
+          height="320"
+          alt="Avatar"
+          class="w-80 h-80 opacity-25 rounded-full"
+        />
+      </div>
+    </div>
+  </header>
 </template>
