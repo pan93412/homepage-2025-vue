@@ -1,6 +1,6 @@
 <template>
-    <div class="container mx-auto grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-8 px-4">
-        <main id="main-content" class="min-w-0">
+    <div class="container mx-auto grid grid-cols-1 lg:grid-cols-[6fr_2fr] gap-8">
+        <main id="main-content">
             <slot />
         </main>
         <aside class="hidden lg:block">
