@@ -85,6 +85,12 @@ about:
         where you can often find me.
 projects:
     title: Projects
+    description: >-
+        Most of my exciting projects are open-sourced on {my-github} and the organization I created.
+        I have pinned some projects that showcase my skills. I also maintain a {blog}, where I share my
+        thoughts and technical insights.
+    my-github: my GitHub (pan93412)
+    blog: blog (blog.pan93.com)
     nkust-iot-2024-06:
         title: 2024/06 - NKUST IC IoT Projects (Go)
         description: >-

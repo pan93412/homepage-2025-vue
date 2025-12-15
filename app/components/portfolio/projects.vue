@@ -44,6 +44,15 @@ const projects: Project[] = [
     <AppArticleBlock>
         <h2 id="projects" class="text-xl font-bold mb-2 scroll-mt-4">{{ $t('projects.title') }}</h2>
 
+        <i18n-t keypath="projects.description" tag="p" scope="global">
+            <template #my-github>
+                <a href="https://github.com/pan93412">{{ $t('projects.my-github') }}</a>
+            </template>
+            <template #blog>
+                <a href="https://blog.pan93.com">{{ $t('projects.blog') }}</a>
+            </template>
+        </i18n-t>
+
         <ul class="list-disc list-inside mb-2 [&>li]:mb-0.5">
             <AppDescriptionList v-for="project in projects" :key="project.key">
                 <template #title>
