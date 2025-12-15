@@ -34,7 +34,7 @@ const moveToAnchor = (anchor: string) => {
                     :class="[
                         'block py-1 px-2 rounded transition-all duration-200 no-underline',
                         activeAnchor === item.id
-                            ? 'bg-blue-100 dark:bg-blue-900 text-blue-900 dark:text-blue-100 font-semibold'
+                            ? 'bg-blue-100 dark:bg-blue-900 text-blue-900 dark:text-blue-100'
                             : 'text-neutral-700 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-700',
                         item.level === 2 ? 'ml-0' : 'ml-4',
                     ]"
