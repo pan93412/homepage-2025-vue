@@ -1,14 +1,12 @@
 <script setup lang="ts">
 
-const props = withDefaults(defineProps<{
-    target?: string | HTMLElement
+withDefaults(defineProps<{
     title?: string
 }>(), {
-    target: undefined,
     title: 'Table of Contents'
-})
+});
 
-const tocItems = useTocItems(props.target);
+const tocItems = useTocItems();
 const activeAnchor = useActiveAnchor(tocItems);
 
 const moveToAnchor = (anchor: string) => {

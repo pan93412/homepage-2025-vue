@@ -1,6 +1,11 @@
 <template>
     <AppArticleBlock>
-        <h2 id="about" class="text-xl font-bold mb-2 scroll-mt-4">{{ $t('about.title') }}</h2>
+        <AppHeading
+            id="about"
+            class="text-xl font-bold mb-2 scroll-mt-4"
+            :level="2"
+            :text="$t('about.title')"
+        />
 
         <p>{{ $t('about.description') }}</p>
 

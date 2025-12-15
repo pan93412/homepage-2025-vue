@@ -56,8 +56,12 @@
 
 <template>
     <AppArticleBlock class="@container">
-        <h2 id="social-media" class="text-xl font-bold mb-2 scroll-mt-4">{{ $t('social-media.title') }}</h2>
-
+        <AppHeading
+            id="social-media"
+            class="text-xl font-bold mb-2 scroll-mt-4"
+            :level="2"
+            :text="$t('social-media.title')"
+        />
         <p>{{ $t('social-media.description') }}</p>
 
         <section class="grid grid-cols-1 @lg:grid-cols-2 @xl:grid-cols-3 gap-2 mt-2">

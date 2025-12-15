@@ -15,14 +15,16 @@
     <div>
         <PortfolioHeader />
 
-        <AppMainLayout>
-            <PortfolioAbout />
-            <PortfolioProjects />
-            <PortfolioExperiences />
-            <PortfolioSlides />
-            <PortfolioReferrals />
-            <PortfolioSocialMedia />
-        </AppMainLayout>
+        <AppTocProvider>
+            <AppMainLayout>
+                <PortfolioAbout />
+                <PortfolioProjects />
+                <PortfolioExperiences />
+                <PortfolioSlides />
+                <PortfolioReferrals />
+                <PortfolioSocialMedia />
+            </AppMainLayout>
+        </AppTocProvider>
 
         <Analytics />
     </div>

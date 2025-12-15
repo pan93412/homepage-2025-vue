@@ -1,7 +1,3 @@
-<script setup lang="ts">
-const AppToc = defineAsyncComponent(() => import('./app-toc.vue'));
-</script>
-
 <template>
     <div class="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-[6fr_2fr] gap-8">
         <main id="main-content">

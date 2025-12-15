@@ -41,7 +41,12 @@ const projects: Project[] = [
 
 <template>
     <AppArticleBlock>
-        <h2 id="projects" class="text-xl font-bold mb-2 scroll-mt-4">{{ $t('projects.title') }}</h2>
+        <AppHeading
+            id="projects"
+            class="text-xl font-bold mb-2 scroll-mt-4"
+            :level="2"
+            :text="$t('projects.title')"
+        />
 
         <i18n-t keypath="projects.description" tag="p" scope="global">
             <template #my-github>

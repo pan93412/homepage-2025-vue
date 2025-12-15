@@ -183,12 +183,20 @@ const ContributionItem = defineComponent({
 
 <template>
     <AppArticleBlock>
-        <h2 id="experiences" class="text-xl font-bold mb-2 scroll-mt-4">{{ $t('experiences.title') }}</h2>
-
+        <AppHeading
+            id="experiences"
+            class="text-xl font-bold mb-2 scroll-mt-4"
+            :level="2"
+            :text="$t('experiences.title')"
+        />
         <section v-for="experience in experiences" :key="experience.key" class="mb-4 [&>p]:mb-1.5">
-            <h3 :id="`experience-${experience.key}`" class="text-lg font-bold mb-1 scroll-mt-2">
-                {{ $t(`experiences.${experience.key}.title`) }}
-            </h3>
+            <AppHeading
+                :id="`experience-${experience.key}`"
+                :level="3"
+                class="text-lg font-bold mb-1 scroll-mt-2"
+                :text="$t(`experiences.${experience.key}.title`)"
+            />
+
             <p>
                 {{ $t(`experiences.${experience.key}.company-description`) }}
                 <a v-if="experience.moreInformationLink" :href="experience.moreInformationLink" class="text-blue-500">{{

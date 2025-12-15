@@ -1,7 +1,6 @@
 
 import { ref, onMounted, onUnmounted, watch, type Ref, type WatchHandle } from 'vue'
 import { useThrottleFn } from '@vueuse/core'
-import type { TocItem } from './useTocItems'
 
 /**
  * Get the absolute top position of an element relative to the document.
@@ -54,6 +53,7 @@ export function useActiveAnchor(tocItems: Ref<TocItem[]> | TocItem[]): Ref<strin
 
     // Map headers with their absolute top positions
     const headers = tocItemsRef.value
+      .filter((item): item is TocItem & { $element: HTMLElement } => item.$element !== undefined)
       .map((item) => ({
         id: item.id,
         top: getAbsoluteTop(item.$element)

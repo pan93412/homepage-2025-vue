@@ -18,12 +18,21 @@ const referrals: Referral[] = [
 
 <template>
     <AppArticleBlock>
-        <h2 id="referrals" class="text-xl font-bold mb-2 scroll-mt-4">{{ $t('referrals.title') }}</h2>
-
+        <AppHeading
+            id="referrals"
+            class="text-xl font-bold mb-2 scroll-mt-4"
+            :level="2"
+            :text="$t('referrals.title')"
+        />
         <p>{{ $t('referrals.description') }}</p>
 
         <section v-for="referral in referrals" :key="referral.key" class="mt-4">
-            <h3 :id="`referrals-${referral.key}`" class="text-lg font-bold mb-2">{{ $t(`referrals.${referral.key}.title`) }}</h3>
+            <AppHeading
+                :id="`referrals-${referral.key}`"
+                :level="3"
+                class="text-lg font-bold mb-2"
+                :text="$t(`referrals.${referral.key}.title`)"
+            />
             <p>{{ $t(`referrals.${referral.key}.description`) }}</p>
             <p class="mt-2"><a :href="referral.url">{{ $t('referrals.register-now') }}</a></p>
         </section>
