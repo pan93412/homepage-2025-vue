@@ -143,6 +143,7 @@ projects:
             helping elderly patients feel more comfortable and engaged, as if they are conversing with a real doctor.
 experiences:
     title: Experiences
+    contributions: "Contributions:"
     more-information: "More information →"
     zeabur-2023-04:
         title: "Zeabur: 2023-04 ~ (part-time to full-time)"
@@ -229,7 +230,7 @@ experiences:
     cisc-2020:
         title: "CISC: 2020 ~ (volunteer)"
         company-description: >-
-            A information community for senior high school students.
+            A IT community for senior high school students.
             I participated in the community as an volunteer in information group.
         contributions:
             ciscc:
