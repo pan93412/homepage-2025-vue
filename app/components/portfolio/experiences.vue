@@ -213,8 +213,9 @@ const ContributionItem = defineComponent({
                                 <template v-else>{{
                                     $t(`experiences.${experience.key}.contributions.${contribution.key}.title`)
                                     }}</template>
-                            </strong>:
-                            <ContributionItem
+                            </strong>{{
+                                $t('punctuation.colon')
+                            }}<ContributionItem
                                 :experience-key="experience.key"
                                 :contribution-item="contribution" />
                         </template>
