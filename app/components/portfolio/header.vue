@@ -25,6 +25,7 @@
         role="presentation"
       >
         <NuxtImg
+          preload
           src="/avatar.avif"
           format="avif"
           loading="lazy"
