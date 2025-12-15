@@ -67,7 +67,7 @@
         <section class="grid grid-cols-1 @lg:grid-cols-2 @xl:grid-cols-3 gap-2 mt-2">
             <div v-for="contact in socialMediaContacts" :key="contact.name">
                 <strong>{{ contact.name }}</strong>:&nbsp;<br class="hidden @lg:block">
-                <a :href="contact.link">{{ contact.handle }}</a>
+                <NuxtLink :href="contact.link">{{ contact.handle }}</NuxtLink>
             </div>
         </section>
     </AppArticleBlock>

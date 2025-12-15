@@ -8,13 +8,6 @@ withDefaults(defineProps<{
 
 const tocItemsRef = useTocItems();
 const activeAnchor = useActiveAnchor(tocItemsRef);
-
-const moveToAnchor = (anchor: string) => {
-    const target = document.getElementById(anchor);
-    if (target) {
-        target.scrollIntoView({ behavior: 'smooth' });
-    }
-}
 </script>
 
 <template>
@@ -27,8 +20,9 @@ const moveToAnchor = (anchor: string) => {
                 v-for="item in tocItemsRef" 
                 :key="item.id" 
                 class="text-sm">
-                <a
-                    :href="`#${item.id}`"
+                <NuxtLink
+                    :to="`#${item.id}`"
+                    
                     :class="[
                         'block py-1 px-2 rounded transition-all duration-200 no-underline',
                         activeAnchor === item.id
@@ -36,9 +30,8 @@ const moveToAnchor = (anchor: string) => {
                             : 'text-neutral-700 dark:text-neutral-300 hover:bg-neutral-200 dark:hover:bg-neutral-700',
                         item.level === 2 ? 'ml-0' : 'ml-4',
                     ]"
-                    @click.prevent="moveToAnchor(item.id)"
                     >{{ item.text }}
-                </a>
+                </NuxtLink>
             </li>
         </ul>
     </nav>

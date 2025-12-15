@@ -79,7 +79,7 @@ const slides: Slide[] = [
                     
                     <div class="inline-flex items-center">
                         <div v-for="(link, idx) in slide.links" :key="link.name">
-                            <a :href="link.url" rel="noopener noreferrer" target="_blank">{{ link.name }}</a>
+                            <NuxtLink :href="link.url" rel="noopener noreferrer" target="_blank">{{ link.name }}</NuxtLink>
                             <span v-if="idx < slide.links.length - 1" role="presentation" aria-hidden="true">,&nbsp;</span>
                         </div>
                     </div>

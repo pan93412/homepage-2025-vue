@@ -50,17 +50,17 @@ const projects: Project[] = [
 
         <i18n-t keypath="projects.description" tag="p" scope="global">
             <template #my-github>
-                <a href="https://github.com/pan93412">{{ $t('projects.my-github') }}</a>
+                <NuxtLink href="https://github.com/pan93412">{{ $t('projects.my-github') }}</NuxtLink>
             </template>
             <template #blog>
-                <a href="https://blog.pan93.com">{{ $t('projects.blog') }}</a>
+                <NuxtLink href="https://blog.pan93.com">{{ $t('projects.blog') }}</NuxtLink>
             </template>
         </i18n-t>
 
         <ul class="list-disc list-inside mb-2 [&>li]:mb-0.5">
             <AppDescriptionList v-for="project in projects" :key="project.key">
                 <template #title>
-                    <a v-if="project.link" :href="project.link">{{ $t(`projects.${project.key}.title`) }}</a>
+                    <NuxtLink v-if="project.link" :href="project.link">{{ $t(`projects.${project.key}.title`) }}</NuxtLink>
                     <span v-else>{{ $t(`projects.${project.key}.title`) }}</span>
                 </template>
                 <template #description>

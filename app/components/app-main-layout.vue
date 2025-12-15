@@ -3,7 +3,7 @@
         <main id="main-content">
             <slot />
         </main>
-        <aside ref="tocRef" class="hidden lg:block">
+        <aside ref="tocRef" class="hidden lg:block" hydrate-on-visible>
             <AppToc target="#main-content" :title="$t('table-of-contents')" />
         </aside>
     </div>

@@ -199,8 +199,8 @@ const ContributionItem = defineComponent({
 
             <p>
                 {{ $t(`experiences.${experience.key}.company-description`) }}
-                <a v-if="experience.moreInformationLink" :href="experience.moreInformationLink" class="text-blue-500">{{
-                    $t('experiences.more-information') }}</a>
+                <NuxtLink v-if="experience.moreInformationLink" :href="experience.moreInformationLink" class="text-blue-500">{{
+                    $t('experiences.more-information') }}</NuxtLink>
             </p>
 
             <template v-if="experience.contributions">
@@ -210,14 +210,14 @@ const ContributionItem = defineComponent({
                     <li v-for="contribution in experience.contributions" :key="contribution.key">
                         <template v-if="contribution.type === 'complete'">
                             <strong>
-                                <a
+                                <NuxtLink
                                     v-if="contribution.url"
                                     :href="contribution.url"
                                     rel="noopener noreferrer"
                                     class="text-blue-500"
                                 >{{
                                         $t(`experiences.${experience.key}.contributions.${contribution.key}.title`)
-                                    }}</a>
+                                    }}</NuxtLink>
                                 <template v-else>{{
                                     $t(`experiences.${experience.key}.contributions.${contribution.key}.title`)
                                     }}</template>

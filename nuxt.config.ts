@@ -4,12 +4,25 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/eslint', '@nuxtjs/i18n'],
+  modules: ['@nuxt/eslint', '@nuxtjs/i18n', '@nuxt/image'],
   future: {
     compatibilityVersion: 5
   },
   experimental: {
-    typescriptPlugin: true
+    typescriptPlugin: true,
+    defaults: {
+      nuxtLink: {
+        prefetchOn: {
+          visibility: true,
+          interaction: true,
+        },
+      },
+    }
+  },
+  router: {
+    options: {
+      scrollBehaviorType: 'smooth',
+    }
   },
   css: ['./app/assets/css/main.css'],
   vite: {

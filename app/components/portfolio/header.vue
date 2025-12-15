@@ -6,7 +6,7 @@
             <article>
                 <i18n-t keypath="header.description1" tag="span" scope="global">
                     <template #company>
-                        <a href="https://zeabur.com">Zeabur</a>
+                        <NuxtLink href="https://zeabur.com">Zeabur</NuxtLink>
                     </template>
                 </i18n-t>
                 <br>
@@ -20,7 +20,16 @@
             </nav>
 
             <div class="absolute top-1/2 -translate-y-1/2 right-4" aria-hidden="true" role="presentation">
-                <img src="/avatar.avif" alt="Avatar" class="w-80 h-80 opacity-25 rounded-full">
+                <NuxtImg
+                    src="/avatar.avif"
+                    format="avif"
+                    loading="lazy"
+                    fetch-priority="low"
+                    width="320"
+                    height="320"
+                    alt="Avatar"
+                    class="w-80 h-80 opacity-25 rounded-full"
+                />
             </div>
         </div>
     </header>
