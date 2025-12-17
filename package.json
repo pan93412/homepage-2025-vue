@@ -15,12 +15,12 @@
   "dependencies": {
     "@nuxt/eslint": "1.12.1",
     "@nuxt/image": "2.0.0",
-    "@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge@latest",
+    "@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge@10.2.1-29389913.15bb7bb",
     "@tailwindcss/vite": "^4.1.18",
     "@vercel/analytics": "^1.6.1",
     "@vueuse/core": "^14.1.0",
     "eslint": "^9.39.2",
-    "nuxt": "npm:nuxt-nightly@latest",
+    "nuxt": "npm:nuxt-nightly@4.3.0-29432784.68badc0b",
     "tailwindcss": "^4.1.18",
     "vue": "^3.5.25"
   },
