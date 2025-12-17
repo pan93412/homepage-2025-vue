@@ -7,6 +7,16 @@ interface Slide {
 
 const slides: Slide[] = [
   {
+    conferenceName: "MOPCON 2025",
+    slideTitle: "帳號驗證機制怎麼噴掉 5 萬元 (Lightning Talk)",
+    links: [
+      {
+        name: $t("slides.slide"),
+        url: "https://link.pan93.com/mopcon-2025-lightning-talk",
+      },
+    ],
+  },
+  {
     conferenceName: "Cursor Meetup Taipei (June 2025)",
     slideTitle: "Vibe in the efficient way",
     links: [

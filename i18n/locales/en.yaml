@@ -9,7 +9,7 @@ about:
   frontend:
     title: Frontend
     description: >-
-      Mainly using React.js, TypeScript, and Next.js. Use Vue.js, Nuxt,
+      Mainly using React.js, TypeScript, and Next.js. Use Vue.js, Nuxt.js,
       and Vite for small projects.
   backend:
     title: Backend
@@ -213,10 +213,8 @@ experiences:
         description: >-
           Developed a high-performance serialization and deserialization library for
           stock data using Rust and C as the foreign function interface (FFI).
-          This library is utilized in the WMJTYD trading system to efficiently
-          serialize and deserialize stock data.
   unm-2021:
-    title: "UnblockNeteaseMusic: 2020 ~ 2022 (volunteer)"
+    title: "UnblockNeteaseMusic: 2020 ~ (volunteer)"
     company-description: >-
       A proxy that automatically replaces unavailable songs on Netease Cloud Music
       with the available ones on other platforms.
