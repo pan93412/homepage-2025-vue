@@ -113,26 +113,7 @@ const slides: Slide[] = [
           {{ slide.conferenceName }}
         </template>
         <template #description>
-          {{ slide.slideTitle }}
-
-          <span role="presentation" aria-hidden="true">(</span>
-
-          <div class="inline-flex items-center">
-            <div v-for="(link, idx) in slide.links" :key="link.name">
-              <NuxtLink
-                :href="link.url"
-                rel="noopener noreferrer"
-                target="_blank"
-              >{{ link.name }}</NuxtLink>
-              <span
-                v-if="idx < slide.links.length - 1"
-                role="presentation"
-                aria-hidden="true"
-              >,&nbsp;</span>
-            </div>
-          </div>
-
-          <span role="presentation" aria-hidden="true">)</span>
+          {{ slide.slideTitle }}<AppInlineLinks :links="slide.links" />
         </template>
       </AppDescriptionList>
     </ul>

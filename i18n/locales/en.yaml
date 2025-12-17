@@ -307,5 +307,9 @@ social-media:
     You can reach me via Threads, X, or other social media platforms.
     I am mostly active on Telegram, X and Threads.
   email: E-mail
-punctuation:
+description-list:
   colon: ": "
+inline-links:
+  parenthesis: " ("
+  parenthesis-end: ")"
+  separator: ", "

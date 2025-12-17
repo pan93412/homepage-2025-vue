@@ -162,5 +162,9 @@ social-media:
   title: 社群媒體
   description: 你可以透過 Threads、X 或其他社群媒體平台聯絡我。我主要活躍於 Telegram、X 與 Threads。
   email: 電子郵件
-punctuation:
+description-list:
   colon: "："
+inline-links:
+  parenthesis: "（"
+  parenthesis-end: "）"
+  separator: "、"
