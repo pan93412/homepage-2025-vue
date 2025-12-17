@@ -5,27 +5,30 @@
       dark:bg-neutral-800
     "
   >
-    <div class="container mx-auto space-y-1 px-4">
-      <h1 class="text-2xl font-bold">{{ $t("header.title") }}</h1>
+    <div class="container mx-auto px-4">
+      <article class="relative z-10 space-y-1">
+        <h1 class="text-2xl font-bold">{{ $t("header.title") }}</h1>
 
-      <article>
-        <i18n-t keypath="header.description1" tag="span" scope="global">
-          <template #company>
-            <NuxtLink href="https://zeabur.com">Zeabur</NuxtLink>
-          </template>
-        </i18n-t>
-        <br>
-        {{ $t("header.description2") }}
-      </article>
+        <p>
+          <i18n-t keypath="header.description1" tag="span" scope="global">
+            <template #company>
+              <NuxtLink href="https://zeabur.com">Zeabur</NuxtLink>
+            </template>
+          </i18n-t>
+          <br>
+          {{ $t("header.description2") }}
+        </p>
 
-      <nav>
         <ul class="flex items-center gap-1">
           <LanguageSwitcher />
         </ul>
-      </nav>
+      </article>
 
       <div
-        class="absolute top-1/2 right-4 -translate-y-1/2"
+        class="
+          pointer-events-none absolute top-1/2 right-4 z-0 -translate-y-1/2
+          select-none
+        "
         aria-hidden="true"
         role="presentation"
       >
@@ -38,7 +41,10 @@
           width="320"
           height="320"
           alt="Avatar"
-          class="h-80 w-80 rounded-full opacity-25"
+          class="
+            pointer-events-none h-80 w-80 rounded-full object-cover opacity-10
+            select-none
+          "
         />
       </div>
     </div>
