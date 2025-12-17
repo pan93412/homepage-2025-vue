@@ -192,19 +192,22 @@ const ContributionItem = defineComponent({
   <AppArticleBlock>
     <AppHeading
       id="experiences"
-      class="text-xl font-bold mb-2 scroll-mt-4"
+      class="mb-2 scroll-mt-4 text-xl font-bold"
       :level="2"
       :text="$t('experiences.title')"
     />
     <section
       v-for="experience in experiences"
       :key="experience.key"
-      class="mb-4 [&>p]:mb-1.5"
+      class="
+        mb-4
+        [&>p]:mb-1.5
+      "
     >
       <AppHeading
         :id="`experience-${experience.key}`"
         :level="3"
-        class="text-lg font-bold mb-1 scroll-mt-2"
+        class="mb-1 scroll-mt-2 text-lg font-bold"
         :text="$t(`experiences.${experience.key}.title`)"
       />
 
@@ -220,7 +223,12 @@ const ContributionItem = defineComponent({
       <template v-if="experience.contributions">
         <p>{{ $t("experiences.contributions") }}</p>
 
-        <ul class="list-disc list-inside mb-2 [&>li]:mb-0.5">
+        <ul
+          class="
+            mb-2 list-inside list-disc
+            [&>li]:mb-0.5
+          "
+        >
           <li
             v-for="contribution in experience.contributions"
             :key="contribution.key"

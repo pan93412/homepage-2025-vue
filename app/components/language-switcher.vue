@@ -11,7 +11,6 @@ const { locales } = useI18n();
     </li>
     <li
       v-if="index !== locales.length - 1"
-      class="separator"
       aria-hidden="true"
       role="presentation"
     >

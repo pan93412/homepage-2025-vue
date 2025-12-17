@@ -20,7 +20,7 @@ const referrals: Referral[] = [
   <AppArticleBlock>
     <AppHeading
       id="referrals"
-      class="text-xl font-bold mb-2 scroll-mt-4"
+      class="mb-2 scroll-mt-4 text-xl font-bold"
       :level="2"
       :text="$t('referrals.title')"
     />
@@ -30,7 +30,7 @@ const referrals: Referral[] = [
       <AppHeading
         :id="`referrals-${referral.key}`"
         :level="3"
-        class="text-lg font-bold mb-2"
+        class="mb-2 text-lg font-bold"
         :text="$t(`referrals.${referral.key}.title`)"
       />
       <p>{{ $t(`referrals.${referral.key}.description`) }}</p>

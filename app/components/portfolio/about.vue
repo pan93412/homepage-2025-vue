@@ -2,14 +2,19 @@
   <AppArticleBlock>
     <AppHeading
       id="about"
-      class="text-xl font-bold mb-2 scroll-mt-4"
+      class="mb-2 scroll-mt-4 text-xl font-bold"
       :level="2"
       :text="$t('about.title')"
     />
 
     <p>{{ $t("about.description") }}</p>
 
-    <ul class="list-disc list-inside mb-1.5 [&>li]:mb-0.5">
+    <ul
+      class="
+        mb-1.5 list-inside list-disc
+        [&>li]:mb-0.5
+      "
+    >
       <AppDescriptionList>
         <template #title>
           {{ $t("about.frontend.title") }}

@@ -58,15 +58,26 @@ const socialMediaContacts: BasicContact[] = [
   <AppArticleBlock class="@container">
     <AppHeading
       id="social-media"
-      class="text-xl font-bold mb-2 scroll-mt-4"
+      class="mb-2 scroll-mt-4 text-xl font-bold"
       :level="2"
       :text="$t('social-media.title')"
     />
     <p>{{ $t("social-media.description") }}</p>
 
-    <section class="grid grid-cols-1 @lg:grid-cols-2 @xl:grid-cols-3 gap-2 mt-2">
+    <section
+      class="
+        mt-2 grid grid-cols-1 gap-2
+        @lg:grid-cols-2
+        @xl:grid-cols-3
+      "
+    >
       <div v-for="contact in socialMediaContacts" :key="contact.name">
-        <strong>{{ contact.name }}</strong>:&nbsp;<br class="hidden @lg:block">
+        <strong>{{ contact.name }}</strong>:&nbsp;<br
+          class="
+            hidden
+            @lg:block
+          "
+        >
         <NuxtLink :href="contact.link">{{ contact.handle }}</NuxtLink>
       </div>
     </section>

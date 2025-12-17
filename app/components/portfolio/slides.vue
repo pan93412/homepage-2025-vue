@@ -97,12 +97,17 @@ const slides: Slide[] = [
   <AppArticleBlock>
     <AppHeading
       id="slides"
-      class="text-xl font-bold mb-2 scroll-mt-4"
+      class="mb-2 scroll-mt-4 text-xl font-bold"
       :level="2"
       :text="$t('slides.title')"
     />
 
-    <ul class="list-disc list-inside mb-2 [&>li]:mb-0.5">
+    <ul
+      class="
+        mb-2 list-inside list-disc
+        [&>li]:mb-0.5
+      "
+    >
       <AppDescriptionList v-for="slide in slides" :key="slide.conferenceName">
         <template #title>
           {{ slide.conferenceName }}
