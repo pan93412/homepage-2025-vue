@@ -12,11 +12,14 @@ permissions:
 jobs:
   lint:
     name: Run Linters
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
 
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
 
       - uses: actions/setup-node@v6
         with:
