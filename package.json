@@ -9,6 +9,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "format": "dprint fmt",
+    "format:check": "dprint check",
     "lint": "eslint ."
   },
   "dependencies": {
