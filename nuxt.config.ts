@@ -39,5 +39,5 @@ export default defineNuxtConfig({
     host: "https://stats.pan93.com",
     id: "69064deb-56b4-48f5-a13d-437b6bcc2455",
     autoTrack: true,
-  }
+  },
 });
