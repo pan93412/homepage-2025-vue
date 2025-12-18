@@ -17,6 +17,11 @@ jobs:
     runs-on: ubuntu-slim
 
     steps:
+      - name: "notify vercel"
+        uses: "vercel/repository-dispatch/actions/status@v1"
+        with:
+          name: "Vercel - homepage-2025-vue: lint"
+
       - name: Checkout
         uses: actions/checkout@v6
 
@@ -37,8 +42,3 @@ jobs:
 
       - name: Run format check
         run: pnpm format:check
-
-      - name: "notify vercel"
-        uses: "vercel/repository-dispatch/actions/status@v1"
-        with:
-          name: "Vercel - homepage-2025-vue: lint"
