@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { Analytics } from "@vercel/analytics/nuxt";
-
 useHead({
   title: "Yi-Jyun Pan",
   meta: [
@@ -25,7 +23,5 @@ useHead({
         <PortfolioSocialMedia />
       </AppMainLayout>
     </AppTocProvider>
-
-    <Analytics />
   </div>
 </template>

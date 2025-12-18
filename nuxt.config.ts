@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
-  modules: ["@nuxt/eslint", "@nuxtjs/i18n", "@nuxt/image"],
+  modules: ["@nuxt/eslint", "@nuxtjs/i18n", "@nuxt/image", "nuxt-umami"],
   future: {
     compatibilityVersion: 5,
   },
@@ -35,4 +35,9 @@ export default defineNuxtConfig({
     ],
     defaultLocale: "en",
   },
+  umami: {
+    host: "https://stats.pan93.com",
+    id: "69064deb-56b4-48f5-a13d-437b6bcc2455",
+    autoTrack: true,
+  }
 });
