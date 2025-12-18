@@ -44,7 +44,12 @@ CI 會擋掉 lint 和 format 沒過的程式碼。
 
 ## 部署
 
-網站是使用 Zeabur 和 Bunny CDN 部署的。可以參考 Dockerfile 的實作。
+網站同時部署在兩個地方：
+
+- Vercel 主站：<https://pan93.com>
+- Zeabur + Bunny CDN：<https://homepage-plain.pan93.com>
+
+可以參考 Dockerfile 的實作。
 
 因為網站是純靜態內容，不涉及伺服器元素，故產生靜態 HTML 來部署：
 
