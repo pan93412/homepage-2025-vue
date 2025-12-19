@@ -58,7 +58,7 @@ pnpm generate
 pnpx serve .output/public
 ```
 
-我也有配一個重新導向規則，主要是把舊網站的 `index.zh-TW.html` 導向到 `/zh` 上。這部分只有寫成 `vercel.json`，`_redirects` 因為沒有這個需求，所以沒有撰寫。
+我也有配一個重新導向規則，主要是把舊網站的 `index.zh-TW.html` 導向到 `/zh` 上。這部分同時寫成 Vercel 的 `vercel.json` 和 Zeabur 的 `_redirects` 格式。
 
 ## 授權條款
 
