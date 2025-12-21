@@ -62,7 +62,8 @@ const slides: Slide[] = [
       },
       {
         name: $t("slides.slide"),
-        url: "https://www.figma.com/community/file/1457614794408994979/pycon-presentation-how-to-make-a-python-environment-recreatable",
+        url:
+          "https://www.figma.com/community/file/1457614794408994979/pycon-presentation-how-to-make-a-python-environment-recreatable",
       },
       {
         name: "PyCon",
