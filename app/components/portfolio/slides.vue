@@ -47,7 +47,7 @@ const slides: Slide[] = [
     links: [
       {
         name: $t("slides.slide"),
-        url: "https://link.pan93.com/mopcon2024-ppt",
+        url: "https://link.pan93.com/opentelemetry-ppt",
       },
       { name: "MOPCON", url: "https://mopcon.org/2024/speaker/?id=2024010" },
     ],
@@ -60,7 +60,10 @@ const slides: Slide[] = [
         name: $t("slides.article"),
         url: "https://blog.pan93.com/posts/move-venv-to-other-machines/",
       },
-      { name: $t("slides.slide"), url: "https://link.pan93.com/pycon2024-ppt" },
+      {
+        name: $t("slides.slide"),
+        url: "https://www.figma.com/community/file/1457614794408994979/pycon-presentation-how-to-make-a-python-environment-recreatable",
+      },
       {
         name: "PyCon",
         url: "https://tw.pycon.org/2024/zh-hant/conference/talk/319",
