@@ -90,6 +90,9 @@ experiences:
       file-management-v2:
         title: "改進檔案管理 API"
         description: 透過將 RESTful API 部署到每個共享叢集，並設計更直覺的內容串流流程，來提升檔案管理 API 的效能與可擴展性。認證與 payload 簽章方面使用 TLS 與 Ed25519，參考 AWS SigV4 的設計，以防止未授權存取容器檔案系統。
+      observability:
+        title: "導入 OpenTelemetry 全鏈路追蹤"
+        description: 往 Zeabur 導入 OpenTelemetry 全鏈路追蹤和各項內部記錄，顯著提升工程師找出根本問題的速度。
   mopcon-2022:
     title: "MOPCON：2022（議程組志工）"
     company-description: MOPCON 透過整合產業實務、工程研發、專案管理與創業活動，深入探索行動通訊，並致力於培育更多人才與行動科技領域的實作應用。活動連續舉辦十一年，是南台灣最大的 IT 社群年度盛會。

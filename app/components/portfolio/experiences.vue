@@ -44,6 +44,10 @@ const experiences: ExperienceItem[] = [
         type: "complete",
         key: "file-management-v2",
       },
+      {
+        type: "complete",
+        key: "observability",
+      },
     ],
   },
   {

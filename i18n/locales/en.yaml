@@ -185,6 +185,11 @@ experiences:
           RESTful API to each shared cluster and designing a more straightforward content streaming
           process. Utilized TLS and Ed25519 for authentication and payload signing, inspired by AWS
           SigV4, to prevent unauthorized access to the container filesystem.
+      observability:
+        title: "Introducing OpenTelemetry end-to-end tracing"
+        description: >-
+          Introduced OpenTelemetry end-to-end tracing and various internal instrumentation to Zeabur,
+          significantly improving engineers' speed in identifying root causes.
   mopcon-2022:
     title: "MOPCON: 2022 (Agenda Group volunteer)"
     company-description: >-
