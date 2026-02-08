@@ -42,7 +42,7 @@
           height="320"
           alt="Avatar"
           class="
-            pointer-events-none h-80 w-80 rounded-full object-cover opacity-10
+            pointer-events-none size-80 rounded-full object-cover opacity-10
             select-none
           "
         />

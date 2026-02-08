@@ -38,7 +38,10 @@ const activeAnchor = useActiveAnchor(tocItemsRef);
         <NuxtLink
           :to="`#${item.id}`"
           :class="[
-            'block rounded px-2 py-1 no-underline transition-all duration-200',
+            `
+              block rounded-sm px-2 py-1 no-underline transition-all
+              duration-200
+            `,
             activeAnchor === item.id
               ? `
                 bg-blue-100 text-blue-900
@@ -47,7 +50,8 @@ const activeAnchor = useActiveAnchor(tocItemsRef);
               : `
                 text-neutral-700
                 hover:bg-neutral-200
-                dark:text-neutral-300 dark:hover:bg-neutral-700
+                dark:text-neutral-300
+                dark:hover:bg-neutral-700
               `,
             item.level === 2 ? 'ml-0' : 'ml-4',
           ]"
