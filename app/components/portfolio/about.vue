@@ -76,7 +76,7 @@
           {{ $t("about.designing.title") }}
         </template>
         <template #description>
-          {{ $t("about.engineering.description") }}
+          {{ $t("about.designing.description") }}
         </template>
       </AppDescriptionList>
     </ul>
