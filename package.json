@@ -13,21 +13,21 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@nuxt/eslint": "1.14.0",
+    "@nuxt/eslint": "1.15.1",
     "@nuxt/image": "2.0.0",
     "@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge@10.2.1-29389913.15bb7bb",
-    "@nuxtjs/i18n-edge": "10.2.3-29507626.f57bb67",
-    "@tailwindcss/vite": "^4.1.18",
-    "@vueuse/core": "^14.2.0",
-    "eslint": "^9.39.2",
-    "nuxt": "npm:nuxt-nightly@4.3.2-29508081.7f7baf66",
+    "@nuxtjs/i18n-edge": "10.2.3-29521834.3b0ad92",
+    "@tailwindcss/vite": "^4.2.0",
+    "@vueuse/core": "^14.2.1",
+    "eslint": "^10.0.1",
+    "nuxt": "npm:nuxt-nightly@4.3.2-29521026.e16c8357",
     "nuxt-umami": "3.2.1",
-    "tailwindcss": "^4.1.18",
-    "vue": "^3.5.27"
+    "tailwindcss": "^4.2.0",
+    "vue": "^3.5.28"
   },
   "devDependencies": {
     "dprint": "^0.51.1",
-    "eslint-plugin-better-tailwindcss": "^4.1.1",
+    "eslint-plugin-better-tailwindcss": "^4.3.0",
     "typescript": "^5.9.3"
   },
   "packageManager": "pnpm@11.0.0-dev.1005+sha512.91f84a392eea348ea4852a182912d2520273a4336f933b78cc44bc931eb999923c097e9433a9b355adc1f725725ea99082fc9f032a559df832632e764c92c798"
