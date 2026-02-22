@@ -34,6 +34,7 @@ export default defineNuxtConfig({
       { code: "zh", language: "zh-TW", name: "中文", file: "zh-TW.yaml" },
     ],
     defaultLocale: "en",
+    detectBrowserLanguage: false,
   },
   umami: {
     host: "https://stats.pan93.com",
