@@ -22,7 +22,7 @@
     "eslint": "^10.0.1",
     "nuxt": "npm:nuxt-nightly@4.3.2-29521026.e16c8357",
     "nuxt-umami": "3.2.1",
-    "tailwindcss": "^4.2.0",
+    "tailwindcss": "^4.2.2",
     "vue": "^3.5.28"
   },
   "devDependencies": {
