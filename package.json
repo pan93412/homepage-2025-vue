@@ -26,7 +26,7 @@
     "vue": "^3.5.28"
   },
   "devDependencies": {
-    "dprint": "^0.51.1",
+    "dprint": "^0.53.0",
     "eslint-plugin-better-tailwindcss": "^4.3.0",
     "typescript": "^5.9.3"
   },
