@@ -10,7 +10,17 @@ const { data, error } = await useFetch("/api/friendship");
       :level="2"
       :text="$t('friend-links.title')"
     />
-    <p>{{ $t("friend-links.description") }}</p>
+    <i18n-t keypath="friend-links.description" tag="p" scope="global">
+      <template #form-link>
+        <NuxtLink
+          href="https://link.pan93.com/friendship-links"
+          target="_blank"
+          rel="noopener"
+        >
+          {{ $t("friend-links.form-link") }}
+        </NuxtLink>
+      </template>
+    </i18n-t>
 
     <div
       v-if="error"

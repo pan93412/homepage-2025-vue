@@ -308,7 +308,8 @@ referrals:
       Experience a complete edge platform featuring the low-latency CDN, high-speed Storage, Smart DNS with load balancing, and robust WAF security—all fully customizable. Say goodbye to Cloudflare’s rigid contracts and slow support; enjoy total freedom with pay-as-you-go pricing and a team that’s always there to help.
 friend-links:
   title: Friend Links
-  description: These are my friends' websites — feel free to check them out!
+  description: "These are my friends' websites — feel free to check them out! Want to join? Submit via {form-link}."
+  form-link: this Google Form
   error: Failed to load friend links. Please try again later.
 social-media:
   title: Social Media
