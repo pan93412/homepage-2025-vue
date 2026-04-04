@@ -161,6 +161,10 @@ referrals:
   bunny-cdn:
     title: Bunny CDN
     description: 體驗全方位的邊緣平台，包含有台灣節點的低延遲 CDN、高速儲存空間、具備負載平衡的智慧 DNS，以及強大的 WAF 資安防護，且所有功能皆可高度自訂。告別 Cloudflare 的僵化合約與緩慢客服，享受「用多少付多少」的完全自由，以及一個隨時為您提供協助的支援團隊。
+friend-links:
+  title: 好友連結
+  description: 這些是我的朋友們的網站，歡迎來逛逛！
+  error: 無法載入好友連結，請稍後再試。
 social-media:
   title: 社群媒體
   description: 你可以透過 Threads、X 或其他社群媒體平台聯絡我。我主要活躍於 Telegram、X 與 Threads。

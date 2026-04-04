@@ -41,4 +41,7 @@ export default defineNuxtConfig({
     id: "69064deb-56b4-48f5-a13d-437b6bcc2455",
     autoTrack: true,
   },
+  runtimeConfig: {
+    friendshipApiUrl: "",
+  },
 });

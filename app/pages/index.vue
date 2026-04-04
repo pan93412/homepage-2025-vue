@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { Suspense } from "vue";
+
 useHead({
   title: "Yi-Jyun Pan",
   meta: [
@@ -20,6 +22,7 @@ useHead({
         <PortfolioExperiences />
         <PortfolioSlides />
         <PortfolioReferrals />
+        <PortfolioFriendLinks />
         <PortfolioSocialMedia />
       </AppMainLayout>
     </AppTocProvider>
