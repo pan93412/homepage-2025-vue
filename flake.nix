@@ -30,9 +30,8 @@
         {
           default = pkgs.mkShellNoCC {
             packages = with pkgs; [
-              node2nix
               nodejs_24
-              nodePackages.pnpm
+              pnpm
             ];
           };
         }
