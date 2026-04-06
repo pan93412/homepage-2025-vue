@@ -15,6 +15,7 @@ RUN pnpm install --frozen-lockfile
 COPY . ./
 
 # Build the project
+ENV NITRO_PRESET=node-server
 RUN pnpm run build
 
 # Build Stage 2
