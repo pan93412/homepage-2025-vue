@@ -1,6 +1,6 @@
 # Build Stage 1
 
-FROM node:24-alpine AS build
+FROM node:25-alpine AS build
 WORKDIR /app
 
 RUN corepack enable
@@ -19,7 +19,7 @@ ENV NITRO_PRESET=node-server
 RUN pnpm run build
 
 # Build Stage 2
-FROM node:24-alpine AS prod
+FROM node:25-alpine AS prod
 WORKDIR /app
 
 # Only `.output` folder is needed from the build stage
