@@ -9,7 +9,7 @@ RUN corepack enable
 COPY package.json pnpm-*.yaml ./
 
 # Install dependencies
-RUN pnpm install --frozen-lockfile
+RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --prod --frozen-lockfile
 
 # Copy the entire project
 COPY . ./
