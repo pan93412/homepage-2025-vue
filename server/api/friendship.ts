@@ -1,27 +1,39 @@
+import { parse } from "csv-parse/sync";
 import { z } from "zod";
 
-const friendshipObjectSchema = z.object({
-  name: z.string().describe("網站名字"),
-  description: z.string().describe("網站描述"),
-  url: z.url().describe("個人網站連結"),
-  avatar: z.url().describe("頭貼/Logo 連結"),
-  published: z.boolean().describe("是否上架"),
-});
+const csvObjectSchema = z.object({
+  '時間戳記': z.string(),
+  '網站名字': z.string(),
+  '網站描述': z.string(),
+  '個人網站連結': z.url(),
+  '頭貼/Logo 連結': z.url(),
+  '上架': z.enum(['TRUE', 'FALSE']).transform(value => value === 'TRUE'),
+}).transform((obj) => ({
+  name: obj['網站名字'],
+  description: obj['網站描述'],
+  url: obj['個人網站連結'],
+  avatar: obj['頭貼/Logo 連結'],
+}));
 
-const friendshipApiSchema = z.array(friendshipObjectSchema);
+const csvListSchema = z.array(csvObjectSchema);
 
 export default defineCachedEventHandler(async (event) => {
-  const { friendshipApiUrl } = useRuntimeConfig(event);
+  const { friendshipGoogleSheetId, friendshipGoogleSheetName } = useRuntimeConfig(event);
+
+  // Headers: 時間戳記, 網站名字, 網站描述, 個人網站連結, 頭貼/Logo 連結, 上架
+  // Query: select * where F = true (F is the "上架" column)
+  const url = `https://docs.google.com/spreadsheets/d/${friendshipGoogleSheetId}/gviz/tq?tqx=out:csv&sheet=${encodeURIComponent(friendshipGoogleSheetName)}&tq=select%20*%20where%20F%20%3D%20true`;
 
   try {
-    const response = await $fetch(friendshipApiUrl, {
+    const response = await $fetch<string>(url, {
       method: "GET",
-      redirect: "follow",
+      responseType: "text",
     });
+    const parsedResult = parse(response, { columns: true });
 
-    const friendshipData = friendshipApiSchema.parse(response);
+    const records = csvListSchema.parse(parsedResult);
 
-    return friendshipData;
+    return records;
   } catch (error) {
     console.error("Error fetching friendship data:", error);
     throw createError({

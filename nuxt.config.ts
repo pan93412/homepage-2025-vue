@@ -42,6 +42,7 @@ export default defineNuxtConfig({
     autoTrack: true,
   },
   runtimeConfig: {
-    friendshipApiUrl: "",
+    friendshipGoogleSheetId: "",
+    friendshipGoogleSheetName: "",
   },
 });
