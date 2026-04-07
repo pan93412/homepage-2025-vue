@@ -8,7 +8,7 @@ interface Slide {
 const slides: Slide[] = [
   {
     conferenceName: "MOPCON 2025",
-    slideTitle: "帳號驗證機制怎麼噴掉 5 萬元 (Lightning Talk)",
+    slideTitle: "帳號驗證機制怎麼噴掉5萬元 (Lightning Talk)",
     links: [
       {
         name: $t("slides.slide"),
@@ -43,7 +43,7 @@ const slides: Slide[] = [
   },
   {
     conferenceName: "MOPCON 2024",
-    slideTitle: "導入可監控性：OpenTelemetry 實踐和 Request ID 實作",
+    slideTitle: "導入可監控性：OpenTelemetry實踐和Request ID實作",
     links: [
       {
         name: $t("slides.slide"),
@@ -54,7 +54,7 @@ const slides: Slide[] = [
   },
   {
     conferenceName: "PyCon 2024",
-    slideTitle: "如何將 Python 程式碼的環境遷移到其他地方？",
+    slideTitle: "如何將Python程式碼的環境遷移到其他地方？",
     links: [
       {
         name: $t("slides.article"),
@@ -73,7 +73,7 @@ const slides: Slide[] = [
   },
   {
     conferenceName: "DevFest 2022",
-    slideTitle: "透過重構實戰，探索 Web App DX 和 UX 的最佳做法",
+    slideTitle: "透過重構實戰，探索Web App DX和UX的最佳做法",
     links: [
       {
         name: $t("slides.slide"),
