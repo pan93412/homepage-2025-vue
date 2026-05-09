@@ -38,6 +38,10 @@ const { data, error } = await useFetch("/api/friendship");
       <img
         :src="link.avatar"
         :alt="link.name"
+        loading="lazy"
+        decoding="async"
+        width="48"
+        height="48"
         class="size-12 shrink-0 rounded-full object-cover"
       >
       <div class="min-w-0">
