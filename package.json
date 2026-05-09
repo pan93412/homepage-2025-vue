@@ -11,7 +11,7 @@
     "format": "dprint fmt",
     "format:check": "dprint check",
     "lint": "eslint .",
-    "prepare": "husky"
+    "prepare": "husky || true"
   },
   "dependencies": {
     "@nuxt/eslint": "1.15.2",

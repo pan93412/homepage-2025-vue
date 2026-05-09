@@ -28,32 +28,26 @@ Use the following workflow when refreshing dependencies:
    pnpm upgrade --latest
    ```
 
-4. Upgrade locked dependencies that can move without crossing major versions:
+4. Refresh Nuxt nightly dependencies:
 
    ```sh
-   pnpm upgrade
-   ```
-
-5. Refresh Nuxt nightly dependencies:
-
-   ```sh
-   pnpx nuxt upgrade --channel=nightly
+   pnpm dlx nuxt upgrade --channel=nightly
    ```
 
    In non-interactive environments, prefer the explicit Nuxt 4 nightly channel
    and lockfile dedupe option so the command does not stop on prompts:
 
    ```sh
-   pnpx nuxt upgrade --channel=v4-nightly --dedupe
+   pnpm dlx nuxt upgrade --channel=v4-nightly --dedupe
    ```
 
-6. Refresh GitHub Actions dependencies:
+5. Refresh GitHub Actions dependencies:
 
    ```sh
-   pnpx actions-up --include-branches -y
+   pnpm dlx actions-up --include-branches -y
    ```
 
-7. Dedupe the pnpm dependency graph:
+6. Dedupe the pnpm dependency graph:
 
    ```sh
    pnpm dedupe
