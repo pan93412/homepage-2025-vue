@@ -7,13 +7,13 @@
 - Tailwind CSS 的設計系統比自己定義的還好，如果要套用 Tailwind CSS 的話，HTML 這種不易 DRY 的環境不友善
 - HTML 同時兼顧排版和內容兩個部分，導致新的經歷或者是項目在增加下沒有這麼容易。
 
-因此，我這次改用 Nuxt.js 來重寫網頁。比起純粹的 HTML，它可以善用 Vue 元件化的優勢；但比起純粹的 Vue CSR，Nuxt.js 可以把整個頁面預先處理成靜態 HTML（SSG），所以在 SEO 表現上可以和原本一樣好。
+因此，我這次改用 Nuxt.js 來重寫網頁。比起純粹的 HTML，它可以善用 Vue 元件化的優勢；比起純粹的 Vue CSR，Nuxt.js 支援 SSR，在 SEO 表現上可以和原本一樣好，也可以視需要切換成 SSG 純靜態輸出。
 
 同時也試試看 Vue.js 開發。我平時使用 React.js 比較多，但 Vue.js 據說效能和一部分開發體驗上比較好，在小規模專案開發下確實很值得試試。
 
 ## 特點
 
-- 使用 vue-i18n 來做國際化。它會根據 `Accept-Language` 標頭指向對應語言的頁面，瀏覽體驗會好很多。
+- 使用 vue-i18n 來做國際化，使用者可以手動切換語言。
 - 每個網站區塊都是一個元件，在程式碼結構上會更為清晰。
 - 使用 JavaScript 物件來定義經歷、簡報等內容，減少需要動到 template 的時機。
 - 支援 Table of Contents 來快速跳轉，以及知道自己在哪個區域。
@@ -33,32 +33,55 @@ pnpm install
 pnpm dev
 ```
 
-Linting:
+Linting 與格式化：
 
 ```bash
 pnpm lint
 pnpm format
 ```
 
-CI 會擋掉 lint 和 format 沒過的程式碼。
+CI 會在 pull request 時執行以下檢查：
+
+- **Lint & Format**：擋掉 lint 和 format 沒過的程式碼。
+- **Docker Build**：確認 Dockerfile 可以正常編譯通過。
+
+### Git Hooks
+
+專案使用 Husky 管理 Git hooks：
+
+- **pre-commit**：自動執行 `pnpm format && pnpm lint`，確保提交前格式與風格正確。
+- **commit-msg**：透過 Commitlint 檢查 commit message 是否符合 [Conventional Commits](https://www.conventionalcommits.org/) 規範。
+
+### 依賴更新
+
+依賴更新的完整流程（含 Nix、pnpm、Nuxt nightly、GitHub Actions）記錄在 [AGENTS.md](AGENTS.md)，可以由 Claude Code 或 Codex 來做自動依賴更新。
 
 ## 部署
 
-網站同時部署在兩個地方：
+主站部署在 <https://pan93.com>，部署在 [NCSE 台灣機房](https://ncse.tw/zh/)、使用 [Zeabur](https://zeabur.com) 做 CI/CD 和部署，搭配 [Bunny CDN](https://bunny.net) 做加速。
 
-- Vercel 主站：<https://pan93.com>
-- Zeabur + Bunny CDN：<https://homepage-zeabur.pan93.com/>
+實際部署透過 Docker，Zeabur 會自動偵測並以 `Dockerfile` 建置映像檔：
 
-可以參考 Dockerfile 的實作。
+```bash
+docker build -t homepage .
+docker run -p 8080:8080 homepage
+```
 
-因為網站是純靜態內容，不涉及伺服器元素，故產生靜態 HTML 來部署：
+Dockerfile 採用兩階段建置（`node:24-alpine`）：第一階段安裝依賴並以 `NITRO_PRESET=node-server` 建置 SSR 產物，第二階段只複製 `.output/` 以縮小映像檔大小。
+
+若需要在本機直接建置並啟動（不透過 Docker）：
+
+```bash
+pnpm build
+node .output/server/index.mjs
+```
+
+若需要純靜態部署（SSG），可改用 `generate`：
 
 ```bash
 pnpm generate
-pnpx serve .output/public
+# 靜態檔案在 .output/public/
 ```
-
-我也有配一個重新導向規則，主要是把舊網站的 `index.zh-TW.html` 導向到 `/zh` 上。這部分同時寫成 Vercel 的 `vercel.json` 和 Zeabur 的 `_redirects` 格式。
 
 ## 授權條款
 
