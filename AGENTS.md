@@ -47,7 +47,13 @@ Use the following workflow when refreshing dependencies:
    pnpx nuxt upgrade --channel=v4-nightly --dedupe
    ```
 
-6. Dedupe the pnpm dependency graph:
+6. Refresh GitHub Actions dependencies:
+
+   ```sh
+   pnpx actions-up --include-branches -y
+   ```
+
+7. Dedupe the pnpm dependency graph:
 
    ```sh
    pnpm dedupe
