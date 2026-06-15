@@ -14,24 +14,24 @@
     "prepare": "husky || true"
   },
   "dependencies": {
-    "@nuxt/eslint": "1.15.2",
+    "@nuxt/eslint": "1.16.0",
     "@nuxt/image": "2.0.0",
     "@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge@10.3.0-29627153.9fe76c1",
-    "@tailwindcss/vite": "^4.3.0",
+    "@tailwindcss/vite": "^4.3.1",
     "@vueuse/core": "^14.3.0",
     "csv-parse": "^6.2.1",
-    "eslint": "^10.3.0",
-    "nuxt": "npm:nuxt-nightly@4.4.5-29637107.d1f7c8a3",
+    "eslint": "^10.5.0",
+    "nuxt": "npm:nuxt-nightly@4.5.0-29689099.5b0406b1",
     "nuxt-umami": "3.2.1",
-    "tailwindcss": "^4.3.0",
-    "vue": "^3.5.34",
+    "tailwindcss": "^4.3.1",
+    "vue": "^3.5.38",
     "zod": "^4.4.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "^21.0.0",
-    "@commitlint/config-conventional": "^21.0.0",
+    "@commitlint/cli": "^21.0.2",
+    "@commitlint/config-conventional": "^21.0.2",
     "dprint": "^0.54.0",
-    "eslint-plugin-better-tailwindcss": "^4.5.0",
+    "eslint-plugin-better-tailwindcss": "^4.6.0",
     "husky": "^9.1.7",
     "typescript": "^6.0.3"
   },
