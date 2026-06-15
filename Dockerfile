@@ -1,12 +1,13 @@
 # Build Stage 1
 
-FROM node:24-alpine AS build
+FROM node:26-alpine AS build
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
 
 WORKDIR /app
 
-RUN corepack enable
+# Node.js 26 no longer ships corepack, so install it first
+RUN npm install -g corepack && corepack enable
 
 # Copy package.json and your lockfile, here we add pnpm-lock.yaml for illustration
 COPY package.json pnpm-*.yaml ./
@@ -22,7 +23,7 @@ ENV NITRO_PRESET=node-server
 RUN pnpm run build
 
 # Build Stage 2
-FROM node:24-alpine AS prod
+FROM node:26-alpine AS prod
 WORKDIR /app
 
 # Only `.output` folder is needed from the build stage
