@@ -7,7 +7,7 @@ ENV PATH="$PNPM_HOME:$PATH"
 WORKDIR /app
 
 # Node.js 26 no longer ships corepack, so install it first
-RUN npm install -g corepack && corepack enable
+RUN npm install -g corepack@0.35.0 && corepack enable
 
 # Copy package.json and your lockfile, here we add pnpm-lock.yaml for illustration
 COPY package.json pnpm-*.yaml ./
