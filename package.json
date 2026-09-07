@@ -14,26 +14,26 @@
     "prepare": "husky || true"
   },
   "dependencies": {
-    "@nuxt/eslint": "1.16.0",
-    "@nuxt/image": "2.0.0",
-    "@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge@10.3.0-29627153.9fe76c1",
-    "@tailwindcss/vite": "^4.3.1",
-    "@vueuse/core": "^14.3.0",
-    "csv-parse": "^6.2.1",
-    "eslint": "^10.5.0",
-    "nuxt": "npm:nuxt-nightly@4.5.0-29689099.5b0406b1",
+    "@nuxt/eslint": "1.17.0",
+    "@nuxt/image": "2.1.0",
+    "@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge@10.6.0-29792773.c5e1eda",
+    "@tailwindcss/vite": "^4.3.3",
+    "@vueuse/core": "^14.4.0",
+    "csv-parse": "^7.0.2",
+    "eslint": "^10.10.0",
+    "nuxt": "npm:nuxt-nightly@4.6.0-29810031.2cf019ab",
     "nuxt-umami": "3.2.1",
-    "tailwindcss": "^4.3.1",
-    "vue": "^3.5.38",
-    "zod": "^4.4.3"
+    "tailwindcss": "^4.3.3",
+    "vue": "^3.5.42",
+    "zod": "^4.5.4"
   },
   "devDependencies": {
-    "@commitlint/cli": "^21.0.2",
-    "@commitlint/config-conventional": "^21.0.2",
-    "dprint": "^0.54.0",
-    "eslint-plugin-better-tailwindcss": "^4.6.0",
+    "@commitlint/cli": "^21.2.2",
+    "@commitlint/config-conventional": "^21.2.2",
+    "dprint": "^0.57.4",
+    "eslint-plugin-better-tailwindcss": "^4.7.0",
     "husky": "^9.1.7",
     "typescript": "^6.0.3"
   },
-  "packageManager": "pnpm@11.0.9+sha512.34ce82e6780233cf9cad8685029a8f81d2e06196c5a9bad98879f7424940c6817c4e4524fb7d38b8553ceed48b9758b8ebaf1abd3600c232c4c8cf7366086f38"
+  "packageManager": "pnpm@11.26.0+sha512.fc0e2bf890b9f983611f1ab68c0637bce914390653699f83c1a78b005ed25f2c81e77920c8fd8eee2ecf0b58b28cdcb00a84d97f69bcf7c56b2f344710238664"
 }
